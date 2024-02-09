@@ -1,0 +1,35 @@
+{
+    "name": "ifctodotbim",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "node dist/index.js ./input/01.ifc ./output",
+        "test:all": "node dist/index.js ./input/01.ifc ./output all",
+        "dev": "nodemon ",
+        "build": "npx tsc -p .",
+        "build:roll": "rollup -c "
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "@rollup/plugin-commonjs": "^25.0.7",
+        "@rollup/plugin-node-resolve": "^15.2.3",
+        "@types/node": "^20.11.16",
+        "@types/uuid": "^9.0.8",
+        "nodemon": "^3.0.3",
+        "rollup": "^4.9.6",
+        "rollup-plugin-typescript2": "^0.36.0",
+        "ts-node": "^10.9.2",
+        "typescript": "^5.3.3"
+    },
+    "dependencies": {
+        "@types/three": "^0.161.2",
+        "flatbuffers": "^23.5.26",
+        "three": "^0.157.0",
+        "three-stdlib": "^2.29.4",
+        "uuid": "^9.0.1",
+        "web-ifc": "^0.0.51"
+    }
+}
