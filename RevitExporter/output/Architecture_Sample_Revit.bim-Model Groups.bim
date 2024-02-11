@@ -1,0 +1,2555 @@
+{
+  "schema_version": "1.0.0",
+  "info": {
+    "Description": "",
+    "Author": "https://github.com/RyugaRyuzaki",
+    "OriginAuthor": "https://github.com/paireks",
+    "Category": "Model Groups"
+  },
+  "meshes": [
+    {
+      "mesh_id": 132024,
+      "coordinates": [],
+      "indices": []
+    },
+    {
+      "mesh_id": 132078,
+      "coordinates": [],
+      "indices": []
+    },
+    {
+      "mesh_id": 132301,
+      "coordinates": [],
+      "indices": []
+    },
+    {
+      "mesh_id": 132354,
+      "coordinates": [],
+      "indices": []
+    },
+    {
+      "mesh_id": 132407,
+      "coordinates": [],
+      "indices": []
+    },
+    {
+      "mesh_id": 132460,
+      "coordinates": [],
+      "indices": []
+    },
+    {
+      "mesh_id": 132513,
+      "coordinates": [],
+      "indices": []
+    },
+    {
+      "mesh_id": 132566,
+      "coordinates": [],
+      "indices": []
+    },
+    {
+      "mesh_id": 132619,
+      "coordinates": [],
+      "indices": []
+    },
+    {
+      "mesh_id": 132672,
+      "coordinates": [],
+      "indices": []
+    },
+    {
+      "mesh_id": 132725,
+      "coordinates": [],
+      "indices": []
+    },
+    {
+      "mesh_id": 132778,
+      "coordinates": [],
+      "indices": []
+    },
+    {
+      "mesh_id": 132831,
+      "coordinates": [],
+      "indices": []
+    },
+    {
+      "mesh_id": 132884,
+      "coordinates": [],
+      "indices": []
+    },
+    {
+      "mesh_id": 132937,
+      "coordinates": [],
+      "indices": []
+    },
+    {
+      "mesh_id": 132990,
+      "coordinates": [],
+      "indices": []
+    },
+    {
+      "mesh_id": 133305,
+      "coordinates": [],
+      "indices": []
+    },
+    {
+      "mesh_id": 133359,
+      "coordinates": [],
+      "indices": []
+    },
+    {
+      "mesh_id": 133579,
+      "coordinates": [],
+      "indices": []
+    },
+    {
+      "mesh_id": 133632,
+      "coordinates": [],
+      "indices": []
+    },
+    {
+      "mesh_id": 133685,
+      "coordinates": [],
+      "indices": []
+    },
+    {
+      "mesh_id": 133738,
+      "coordinates": [],
+      "indices": []
+    },
+    {
+      "mesh_id": 133791,
+      "coordinates": [],
+      "indices": []
+    },
+    {
+      "mesh_id": 133844,
+      "coordinates": [],
+      "indices": []
+    },
+    {
+      "mesh_id": 133897,
+      "coordinates": [],
+      "indices": []
+    },
+    {
+      "mesh_id": 133950,
+      "coordinates": [],
+      "indices": []
+    },
+    {
+      "mesh_id": 134003,
+      "coordinates": [],
+      "indices": []
+    },
+    {
+      "mesh_id": 180534,
+      "coordinates": [],
+      "indices": []
+    },
+    {
+      "mesh_id": 180552,
+      "coordinates": [],
+      "indices": []
+    },
+    {
+      "mesh_id": 180579,
+      "coordinates": [],
+      "indices": []
+    },
+    {
+      "mesh_id": 200611,
+      "coordinates": [],
+      "indices": []
+    },
+    {
+      "mesh_id": 200653,
+      "coordinates": [],
+      "indices": []
+    },
+    {
+      "mesh_id": 200655,
+      "coordinates": [],
+      "indices": []
+    },
+    {
+      "mesh_id": 200657,
+      "coordinates": [],
+      "indices": []
+    },
+    {
+      "mesh_id": 200659,
+      "coordinates": [],
+      "indices": []
+    },
+    {
+      "mesh_id": 200661,
+      "coordinates": [],
+      "indices": []
+    },
+    {
+      "mesh_id": 200663,
+      "coordinates": [],
+      "indices": []
+    },
+    {
+      "mesh_id": 200665,
+      "coordinates": [],
+      "indices": []
+    },
+    {
+      "mesh_id": 200667,
+      "coordinates": [],
+      "indices": []
+    },
+    {
+      "mesh_id": 200669,
+      "coordinates": [],
+      "indices": []
+    },
+    {
+      "mesh_id": 200671,
+      "coordinates": [],
+      "indices": []
+    },
+    {
+      "mesh_id": 200673,
+      "coordinates": [],
+      "indices": []
+    },
+    {
+      "mesh_id": 200675,
+      "coordinates": [],
+      "indices": []
+    },
+    {
+      "mesh_id": 200677,
+      "coordinates": [],
+      "indices": []
+    },
+    {
+      "mesh_id": 200679,
+      "coordinates": [],
+      "indices": []
+    },
+    {
+      "mesh_id": 200681,
+      "coordinates": [],
+      "indices": []
+    },
+    {
+      "mesh_id": 200683,
+      "coordinates": [],
+      "indices": []
+    },
+    {
+      "mesh_id": 200685,
+      "coordinates": [],
+      "indices": []
+    },
+    {
+      "mesh_id": 200687,
+      "coordinates": [],
+      "indices": []
+    },
+    {
+      "mesh_id": 200741,
+      "coordinates": [],
+      "indices": []
+    },
+    {
+      "mesh_id": 200744,
+      "coordinates": [],
+      "indices": []
+    },
+    {
+      "mesh_id": 200756,
+      "coordinates": [],
+      "indices": []
+    },
+    {
+      "mesh_id": 200758,
+      "coordinates": [],
+      "indices": []
+    },
+    {
+      "mesh_id": 200828,
+      "coordinates": [],
+      "indices": []
+    },
+    {
+      "mesh_id": 200831,
+      "coordinates": [],
+      "indices": []
+    },
+    {
+      "mesh_id": 200841,
+      "coordinates": [],
+      "indices": []
+    },
+    {
+      "mesh_id": 200843,
+      "coordinates": [],
+      "indices": []
+    },
+    {
+      "mesh_id": 200845,
+      "coordinates": [],
+      "indices": []
+    },
+    {
+      "mesh_id": 200847,
+      "coordinates": [],
+      "indices": []
+    },
+    {
+      "mesh_id": 200849,
+      "coordinates": [],
+      "indices": []
+    },
+    {
+      "mesh_id": 200851,
+      "coordinates": [],
+      "indices": []
+    },
+    {
+      "mesh_id": 200853,
+      "coordinates": [],
+      "indices": []
+    },
+    {
+      "mesh_id": 200855,
+      "coordinates": [],
+      "indices": []
+    },
+    {
+      "mesh_id": 200857,
+      "coordinates": [],
+      "indices": []
+    },
+    {
+      "mesh_id": 200904,
+      "coordinates": [],
+      "indices": []
+    },
+    {
+      "mesh_id": 200907,
+      "coordinates": [],
+      "indices": []
+    },
+    {
+      "mesh_id": 200923,
+      "coordinates": [],
+      "indices": []
+    },
+    {
+      "mesh_id": 200925,
+      "coordinates": [],
+      "indices": []
+    },
+    {
+      "mesh_id": 243412,
+      "coordinates": [],
+      "indices": []
+    },
+    {
+      "mesh_id": 243562,
+      "coordinates": [],
+      "indices": []
+    },
+    {
+      "mesh_id": 243613,
+      "coordinates": [],
+      "indices": []
+    },
+    {
+      "mesh_id": 243664,
+      "coordinates": [],
+      "indices": []
+    },
+    {
+      "mesh_id": 243715,
+      "coordinates": [],
+      "indices": []
+    },
+    {
+      "mesh_id": 243766,
+      "coordinates": [],
+      "indices": []
+    },
+    {
+      "mesh_id": 243817,
+      "coordinates": [],
+      "indices": []
+    },
+    {
+      "mesh_id": 247986,
+      "coordinates": [],
+      "indices": []
+    },
+    {
+      "mesh_id": 248030,
+      "coordinates": [],
+      "indices": []
+    },
+    {
+      "mesh_id": 248156,
+      "coordinates": [],
+      "indices": []
+    },
+    {
+      "mesh_id": 248199,
+      "coordinates": [],
+      "indices": []
+    },
+    {
+      "mesh_id": 248242,
+      "coordinates": [],
+      "indices": []
+    },
+    {
+      "mesh_id": 248285,
+      "coordinates": [],
+      "indices": []
+    },
+    {
+      "mesh_id": 248328,
+      "coordinates": [],
+      "indices": []
+    }
+  ],
+  "elements": [
+    {
+      "type": "Model Groups",
+      "info": {
+        "Category": "Model Groups",
+        "ElementID": "132024",
+        "Reference Level": "01 - Entry Level",
+        "Origin Level Offset": "0",
+        "Image": "<None>",
+        "Export to IFC": "By Type",
+        "IfcGUID": "33SHlGjJTCJRWP0fbquQoH"
+      },
+      "face_colors": [],
+      "guid": "c3711bd0-b537-4c4d-b819-029974e3af29-000203b8",
+      "rotation": {
+        "qx": 0,
+        "qy": 0,
+        "qz": 0,
+        "qw": 0
+      },
+      "vector": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "mesh_id": 132024
+    },
+    {
+      "type": "Model Groups",
+      "info": {
+        "Category": "Model Groups",
+        "ElementID": "132078",
+        "Reference Level": "01 - Entry Level",
+        "Origin Level Offset": "0",
+        "Image": "<None>",
+        "Export to IFC": "By Type",
+        "IfcGUID": "33SHlGjJTCJRWP0fbquQp7"
+      },
+      "face_colors": [],
+      "guid": "c3711bd0-b537-4c4d-b819-029974e3af29-000203ee",
+      "rotation": {
+        "qx": 0,
+        "qy": 0,
+        "qz": 0,
+        "qw": 0
+      },
+      "vector": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "mesh_id": 132078
+    },
+    {
+      "type": "Model Groups",
+      "info": {
+        "Category": "Model Groups",
+        "ElementID": "132301",
+        "Reference Level": "01 - Entry Level",
+        "Origin Level Offset": "0",
+        "Image": "<None>",
+        "Export to IFC": "By Type",
+        "IfcGUID": "33SHlGjJTCJRWP0fbquQla"
+      },
+      "face_colors": [],
+      "guid": "c3711bd0-b537-4c4d-b819-029974e3af29-000204cd",
+      "rotation": {
+        "qx": 0,
+        "qy": 0,
+        "qz": 0,
+        "qw": 0
+      },
+      "vector": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "mesh_id": 132301
+    },
+    {
+      "type": "Model Groups",
+      "info": {
+        "Category": "Model Groups",
+        "ElementID": "132354",
+        "Reference Level": "01 - Entry Level",
+        "Origin Level Offset": "0",
+        "Image": "<None>",
+        "Export to IFC": "By Type",
+        "IfcGUID": "33SHlGjJTCJRWP0fbquQeh"
+      },
+      "face_colors": [],
+      "guid": "c3711bd0-b537-4c4d-b819-029974e3af29-00020502",
+      "rotation": {
+        "qx": 0,
+        "qy": 0,
+        "qz": 0,
+        "qw": 0
+      },
+      "vector": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "mesh_id": 132354
+    },
+    {
+      "type": "Model Groups",
+      "info": {
+        "Category": "Model Groups",
+        "ElementID": "132407",
+        "Reference Level": "01 - Entry Level",
+        "Origin Level Offset": "0",
+        "Image": "<None>",
+        "Export to IFC": "By Type",
+        "IfcGUID": "33SHlGjJTCJRWP0fbquQeU"
+      },
+      "face_colors": [],
+      "guid": "c3711bd0-b537-4c4d-b819-029974e3af29-00020537",
+      "rotation": {
+        "qx": 0,
+        "qy": 0,
+        "qz": 0,
+        "qw": 0
+      },
+      "vector": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "mesh_id": 132407
+    },
+    {
+      "type": "Model Groups",
+      "info": {
+        "Category": "Model Groups",
+        "ElementID": "132460",
+        "Reference Level": "01 - Entry Level",
+        "Origin Level Offset": "0",
+        "Image": "<None>",
+        "Export to IFC": "By Type",
+        "IfcGUID": "33SHlGjJTCJRWP0fbquQf5"
+      },
+      "face_colors": [],
+      "guid": "c3711bd0-b537-4c4d-b819-029974e3af29-0002056c",
+      "rotation": {
+        "qx": 0,
+        "qy": 0,
+        "qz": 0,
+        "qw": 0
+      },
+      "vector": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "mesh_id": 132460
+    },
+    {
+      "type": "Model Groups",
+      "info": {
+        "Category": "Model Groups",
+        "ElementID": "132513",
+        "Reference Level": "01 - Entry Level",
+        "Origin Level Offset": "0",
+        "Image": "<None>",
+        "Export to IFC": "By Type",
+        "IfcGUID": "33SHlGjJTCJRWP0fbquQg8"
+      },
+      "face_colors": [],
+      "guid": "c3711bd0-b537-4c4d-b819-029974e3af29-000205a1",
+      "rotation": {
+        "qx": 0,
+        "qy": 0,
+        "qz": 0,
+        "qw": 0
+      },
+      "vector": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "mesh_id": 132513
+    },
+    {
+      "type": "Model Groups",
+      "info": {
+        "Category": "Model Groups",
+        "ElementID": "132566",
+        "Reference Level": "01 - Entry Level",
+        "Origin Level Offset": "0",
+        "Image": "<None>",
+        "Export to IFC": "By Type",
+        "IfcGUID": "33SHlGjJTCJRWP0fbquQh$"
+      },
+      "face_colors": [],
+      "guid": "c3711bd0-b537-4c4d-b819-029974e3af29-000205d6",
+      "rotation": {
+        "qx": 0,
+        "qy": 0,
+        "qz": 0,
+        "qw": 0
+      },
+      "vector": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "mesh_id": 132566
+    },
+    {
+      "type": "Model Groups",
+      "info": {
+        "Category": "Model Groups",
+        "ElementID": "132619",
+        "Reference Level": "01 - Entry Level",
+        "Origin Level Offset": "0",
+        "Image": "<None>",
+        "Export to IFC": "By Type",
+        "IfcGUID": "33SHlGjJTCJRWP0fbquQaY"
+      },
+      "face_colors": [],
+      "guid": "c3711bd0-b537-4c4d-b819-029974e3af29-0002060b",
+      "rotation": {
+        "qx": 0,
+        "qy": 0,
+        "qz": 0,
+        "qw": 0
+      },
+      "vector": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "mesh_id": 132619
+    },
+    {
+      "type": "Model Groups",
+      "info": {
+        "Category": "Model Groups",
+        "ElementID": "132672",
+        "Reference Level": "01 - Entry Level",
+        "Origin Level Offset": "0",
+        "Image": "<None>",
+        "Export to IFC": "By Type",
+        "IfcGUID": "33SHlGjJTCJRWP0fbquQbf"
+      },
+      "face_colors": [],
+      "guid": "c3711bd0-b537-4c4d-b819-029974e3af29-00020640",
+      "rotation": {
+        "qx": 0,
+        "qy": 0,
+        "qz": 0,
+        "qw": 0
+      },
+      "vector": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "mesh_id": 132672
+    },
+    {
+      "type": "Model Groups",
+      "info": {
+        "Category": "Model Groups",
+        "ElementID": "132725",
+        "Reference Level": "01 - Entry Level",
+        "Origin Level Offset": "0",
+        "Image": "<None>",
+        "Export to IFC": "By Type",
+        "IfcGUID": "33SHlGjJTCJRWP0fbquQbS"
+      },
+      "face_colors": [],
+      "guid": "c3711bd0-b537-4c4d-b819-029974e3af29-00020675",
+      "rotation": {
+        "qx": 0,
+        "qy": 0,
+        "qz": 0,
+        "qw": 0
+      },
+      "vector": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "mesh_id": 132725
+    },
+    {
+      "type": "Model Groups",
+      "info": {
+        "Category": "Model Groups",
+        "ElementID": "132778",
+        "Reference Level": "01 - Entry Level",
+        "Origin Level Offset": "0",
+        "Image": "<None>",
+        "Export to IFC": "By Type",
+        "IfcGUID": "33SHlGjJTCJRWP0fbquQc3"
+      },
+      "face_colors": [],
+      "guid": "c3711bd0-b537-4c4d-b819-029974e3af29-000206aa",
+      "rotation": {
+        "qx": 0,
+        "qy": 0,
+        "qz": 0,
+        "qw": 0
+      },
+      "vector": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "mesh_id": 132778
+    },
+    {
+      "type": "Model Groups",
+      "info": {
+        "Category": "Model Groups",
+        "ElementID": "132831",
+        "Reference Level": "01 - Entry Level",
+        "Origin Level Offset": "0",
+        "Image": "<None>",
+        "Export to IFC": "By Type",
+        "IfcGUID": "33SHlGjJTCJRWP0fbquQds"
+      },
+      "face_colors": [],
+      "guid": "c3711bd0-b537-4c4d-b819-029974e3af29-000206df",
+      "rotation": {
+        "qx": 0,
+        "qy": 0,
+        "qz": 0,
+        "qw": 0
+      },
+      "vector": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "mesh_id": 132831
+    },
+    {
+      "type": "Model Groups",
+      "info": {
+        "Category": "Model Groups",
+        "ElementID": "132884",
+        "Reference Level": "01 - Entry Level",
+        "Origin Level Offset": "0",
+        "Image": "<None>",
+        "Export to IFC": "By Type",
+        "IfcGUID": "33SHlGjJTCJRWP0fbquQWz"
+      },
+      "face_colors": [],
+      "guid": "c3711bd0-b537-4c4d-b819-029974e3af29-00020714",
+      "rotation": {
+        "qx": 0,
+        "qy": 0,
+        "qz": 0,
+        "qw": 0
+      },
+      "vector": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "mesh_id": 132884
+    },
+    {
+      "type": "Model Groups",
+      "info": {
+        "Category": "Model Groups",
+        "ElementID": "132937",
+        "Reference Level": "01 - Entry Level",
+        "Origin Level Offset": "0",
+        "Image": "<None>",
+        "Export to IFC": "By Type",
+        "IfcGUID": "33SHlGjJTCJRWP0fbquQXW"
+      },
+      "face_colors": [],
+      "guid": "c3711bd0-b537-4c4d-b819-029974e3af29-00020749",
+      "rotation": {
+        "qx": 0,
+        "qy": 0,
+        "qz": 0,
+        "qw": 0
+      },
+      "vector": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "mesh_id": 132937
+    },
+    {
+      "type": "Model Groups",
+      "info": {
+        "Category": "Model Groups",
+        "ElementID": "132990",
+        "Reference Level": "01 - Entry Level",
+        "Origin Level Offset": "0",
+        "Image": "<None>",
+        "Export to IFC": "By Type",
+        "IfcGUID": "33SHlGjJTCJRWP0fbquQXN"
+      },
+      "face_colors": [],
+      "guid": "c3711bd0-b537-4c4d-b819-029974e3af29-0002077e",
+      "rotation": {
+        "qx": 0,
+        "qy": 0,
+        "qz": 0,
+        "qw": 0
+      },
+      "vector": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "mesh_id": 132990
+    },
+    {
+      "type": "Model Groups",
+      "info": {
+        "Category": "Model Groups",
+        "ElementID": "133305",
+        "Reference Level": "01 - Entry Level",
+        "Origin Level Offset": "0",
+        "Image": "<None>",
+        "Export to IFC": "By Type",
+        "IfcGUID": "33SHlGjJTCJRWP0fbquQUG"
+      },
+      "face_colors": [],
+      "guid": "c3711bd0-b537-4c4d-b819-029974e3af29-000208b9",
+      "rotation": {
+        "qx": 0,
+        "qy": 0,
+        "qz": 0,
+        "qw": 0
+      },
+      "vector": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "mesh_id": 133305
+    },
+    {
+      "type": "Model Groups",
+      "info": {
+        "Category": "Model Groups",
+        "ElementID": "133359",
+        "Reference Level": "01 - Entry Level",
+        "Origin Level Offset": "0",
+        "Image": "<None>",
+        "Export to IFC": "By Type",
+        "IfcGUID": "33SHlGjJTCJRWP0fbquQV6"
+      },
+      "face_colors": [],
+      "guid": "c3711bd0-b537-4c4d-b819-029974e3af29-000208ef",
+      "rotation": {
+        "qx": 0,
+        "qy": 0,
+        "qz": 0,
+        "qw": 0
+      },
+      "vector": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "mesh_id": 133359
+    },
+    {
+      "type": "Model Groups",
+      "info": {
+        "Category": "Model Groups",
+        "ElementID": "133579",
+        "Reference Level": "01 - Entry Level",
+        "Origin Level Offset": "0",
+        "Image": "<None>",
+        "Export to IFC": "By Type",
+        "IfcGUID": "33SHlGjJTCJRWP0fbquQRY"
+      },
+      "face_colors": [],
+      "guid": "c3711bd0-b537-4c4d-b819-029974e3af29-000209cb",
+      "rotation": {
+        "qx": 0,
+        "qy": 0,
+        "qz": 0,
+        "qw": 0
+      },
+      "vector": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "mesh_id": 133579
+    },
+    {
+      "type": "Model Groups",
+      "info": {
+        "Category": "Model Groups",
+        "ElementID": "133632",
+        "Reference Level": "01 - Entry Level",
+        "Origin Level Offset": "0",
+        "Image": "<None>",
+        "Export to IFC": "By Type",
+        "IfcGUID": "33SHlGjJTCJRWP0fbquQKf"
+      },
+      "face_colors": [],
+      "guid": "c3711bd0-b537-4c4d-b819-029974e3af29-00020a00",
+      "rotation": {
+        "qx": 0,
+        "qy": 0,
+        "qz": 0,
+        "qw": 0
+      },
+      "vector": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "mesh_id": 133632
+    },
+    {
+      "type": "Model Groups",
+      "info": {
+        "Category": "Model Groups",
+        "ElementID": "133685",
+        "Reference Level": "01 - Entry Level",
+        "Origin Level Offset": "0",
+        "Image": "<None>",
+        "Export to IFC": "By Type",
+        "IfcGUID": "33SHlGjJTCJRWP0fbquQKS"
+      },
+      "face_colors": [],
+      "guid": "c3711bd0-b537-4c4d-b819-029974e3af29-00020a35",
+      "rotation": {
+        "qx": 0,
+        "qy": 0,
+        "qz": 0,
+        "qw": 0
+      },
+      "vector": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "mesh_id": 133685
+    },
+    {
+      "type": "Model Groups",
+      "info": {
+        "Category": "Model Groups",
+        "ElementID": "133738",
+        "Reference Level": "01 - Entry Level",
+        "Origin Level Offset": "0",
+        "Image": "<None>",
+        "Export to IFC": "By Type",
+        "IfcGUID": "33SHlGjJTCJRWP0fbquQL3"
+      },
+      "face_colors": [],
+      "guid": "c3711bd0-b537-4c4d-b819-029974e3af29-00020a6a",
+      "rotation": {
+        "qx": 0,
+        "qy": 0,
+        "qz": 0,
+        "qw": 0
+      },
+      "vector": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "mesh_id": 133738
+    },
+    {
+      "type": "Model Groups",
+      "info": {
+        "Category": "Model Groups",
+        "ElementID": "133791",
+        "Reference Level": "01 - Entry Level",
+        "Origin Level Offset": "0",
+        "Image": "<None>",
+        "Export to IFC": "By Type",
+        "IfcGUID": "33SHlGjJTCJRWP0fbquQMs"
+      },
+      "face_colors": [],
+      "guid": "c3711bd0-b537-4c4d-b819-029974e3af29-00020a9f",
+      "rotation": {
+        "qx": 0,
+        "qy": 0,
+        "qz": 0,
+        "qw": 0
+      },
+      "vector": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "mesh_id": 133791
+    },
+    {
+      "type": "Model Groups",
+      "info": {
+        "Category": "Model Groups",
+        "ElementID": "133844",
+        "Reference Level": "01 - Entry Level",
+        "Origin Level Offset": "0",
+        "Image": "<None>",
+        "Export to IFC": "By Type",
+        "IfcGUID": "33SHlGjJTCJRWP0fbquQNz"
+      },
+      "face_colors": [],
+      "guid": "c3711bd0-b537-4c4d-b819-029974e3af29-00020ad4",
+      "rotation": {
+        "qx": 0,
+        "qy": 0,
+        "qz": 0,
+        "qw": 0
+      },
+      "vector": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "mesh_id": 133844
+    },
+    {
+      "type": "Model Groups",
+      "info": {
+        "Category": "Model Groups",
+        "ElementID": "133897",
+        "Reference Level": "01 - Entry Level",
+        "Origin Level Offset": "0",
+        "Image": "<None>",
+        "Export to IFC": "By Type",
+        "IfcGUID": "33SHlGjJTCJRWP0fbquQGW"
+      },
+      "face_colors": [],
+      "guid": "c3711bd0-b537-4c4d-b819-029974e3af29-00020b09",
+      "rotation": {
+        "qx": 0,
+        "qy": 0,
+        "qz": 0,
+        "qw": 0
+      },
+      "vector": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "mesh_id": 133897
+    },
+    {
+      "type": "Model Groups",
+      "info": {
+        "Category": "Model Groups",
+        "ElementID": "133950",
+        "Reference Level": "01 - Entry Level",
+        "Origin Level Offset": "0",
+        "Image": "<None>",
+        "Export to IFC": "By Type",
+        "IfcGUID": "33SHlGjJTCJRWP0fbquQGN"
+      },
+      "face_colors": [],
+      "guid": "c3711bd0-b537-4c4d-b819-029974e3af29-00020b3e",
+      "rotation": {
+        "qx": 0,
+        "qy": 0,
+        "qz": 0,
+        "qw": 0
+      },
+      "vector": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "mesh_id": 133950
+    },
+    {
+      "type": "Model Groups",
+      "info": {
+        "Category": "Model Groups",
+        "ElementID": "134003",
+        "Reference Level": "01 - Entry Level",
+        "Origin Level Offset": "0",
+        "Image": "<None>",
+        "Export to IFC": "By Type",
+        "IfcGUID": "33SHlGjJTCJRWP0fbquQHQ"
+      },
+      "face_colors": [],
+      "guid": "c3711bd0-b537-4c4d-b819-029974e3af29-00020b73",
+      "rotation": {
+        "qx": 0,
+        "qy": 0,
+        "qz": 0,
+        "qw": 0
+      },
+      "vector": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "mesh_id": 134003
+    },
+    {
+      "type": "Model Groups",
+      "info": {
+        "Category": "Model Groups",
+        "ElementID": "180534",
+        "Reference Level": "01 - Entry Level",
+        "Origin Level Offset": "0",
+        "Image": "<None>",
+        "Export to IFC": "By Type",
+        "IfcGUID": "1ejURHCdL0uf13ItAXycia"
+      },
+      "face_colors": [],
+      "guid": "68b5e6d1-3275-40e2-9043-4b72a1f0aa12-0002c136",
+      "rotation": {
+        "qx": 0,
+        "qy": 0,
+        "qz": 0,
+        "qw": 0
+      },
+      "vector": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "mesh_id": 180534
+    },
+    {
+      "type": "Model Groups",
+      "info": {
+        "Category": "Model Groups",
+        "ElementID": "180552",
+        "Reference Level": "01 - Entry Level",
+        "Origin Level Offset": "0",
+        "Image": "<None>",
+        "Export to IFC": "By Type",
+        "IfcGUID": "1ejURHCdL0uf13ItAXycjQ"
+      },
+      "face_colors": [],
+      "guid": "68b5e6d1-3275-40e2-9043-4b72a1f0aa12-0002c148",
+      "rotation": {
+        "qx": 0,
+        "qy": 0,
+        "qz": 0,
+        "qw": 0
+      },
+      "vector": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "mesh_id": 180552
+    },
+    {
+      "type": "Model Groups",
+      "info": {
+        "Category": "Model Groups",
+        "ElementID": "180579",
+        "Reference Level": "01 - Entry Level",
+        "Origin Level Offset": "0",
+        "Image": "<None>",
+        "Export to IFC": "By Type",
+        "IfcGUID": "1ejURHCdL0uf13ItAXycjn"
+      },
+      "face_colors": [],
+      "guid": "68b5e6d1-3275-40e2-9043-4b72a1f0aa12-0002c163",
+      "rotation": {
+        "qx": 0,
+        "qy": 0,
+        "qz": 0,
+        "qw": 0
+      },
+      "vector": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "mesh_id": 180579
+    },
+    {
+      "type": "Model Groups",
+      "info": {
+        "Category": "Model Groups",
+        "ElementID": "200611",
+        "Reference Level": "02 - Floor",
+        "Origin Level Offset": "-1550",
+        "Image": "<None>",
+        "Export to IFC": "By Type",
+        "IfcGUID": "3Sm8Z_REj5gPyqnjeULgKj"
+      },
+      "face_colors": [],
+      "guid": "dcc088fe-6ceb-45a9-9f34-c6da1e55aa8e-00030fa3",
+      "rotation": {
+        "qx": 0,
+        "qy": 0,
+        "qz": 0,
+        "qw": 0
+      },
+      "vector": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "mesh_id": 200611
+    },
+    {
+      "type": "Model Groups",
+      "info": {
+        "Category": "Model Groups",
+        "ElementID": "200653",
+        "Reference Level": "02 - Floor",
+        "Origin Level Offset": "-1550",
+        "Image": "<None>",
+        "Export to IFC": "By Type",
+        "IfcGUID": "3Sm8Z_REj5gPyqnjeULgL3"
+      },
+      "face_colors": [],
+      "guid": "dcc088fe-6ceb-45a9-9f34-c6da1e55aa8e-00030fcd",
+      "rotation": {
+        "qx": 0,
+        "qy": 0,
+        "qz": 0,
+        "qw": 0
+      },
+      "vector": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "mesh_id": 200653
+    },
+    {
+      "type": "Model Groups",
+      "info": {
+        "Category": "Model Groups",
+        "ElementID": "200655",
+        "Reference Level": "02 - Floor",
+        "Origin Level Offset": "-1550",
+        "Image": "<None>",
+        "Export to IFC": "By Type",
+        "IfcGUID": "3Sm8Z_REj5gPyqnjeULgL1"
+      },
+      "face_colors": [],
+      "guid": "dcc088fe-6ceb-45a9-9f34-c6da1e55aa8e-00030fcf",
+      "rotation": {
+        "qx": 0,
+        "qy": 0,
+        "qz": 0,
+        "qw": 0
+      },
+      "vector": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "mesh_id": 200655
+    },
+    {
+      "type": "Model Groups",
+      "info": {
+        "Category": "Model Groups",
+        "ElementID": "200657",
+        "Reference Level": "02 - Floor",
+        "Origin Level Offset": "-1550",
+        "Image": "<None>",
+        "Export to IFC": "By Type",
+        "IfcGUID": "3Sm8Z_REj5gPyqnjeULgLV"
+      },
+      "face_colors": [],
+      "guid": "dcc088fe-6ceb-45a9-9f34-c6da1e55aa8e-00030fd1",
+      "rotation": {
+        "qx": 0,
+        "qy": 0,
+        "qz": 0,
+        "qw": 0
+      },
+      "vector": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "mesh_id": 200657
+    },
+    {
+      "type": "Model Groups",
+      "info": {
+        "Category": "Model Groups",
+        "ElementID": "200659",
+        "Reference Level": "02 - Floor",
+        "Origin Level Offset": "-1550",
+        "Image": "<None>",
+        "Export to IFC": "By Type",
+        "IfcGUID": "3Sm8Z_REj5gPyqnjeULgLT"
+      },
+      "face_colors": [],
+      "guid": "dcc088fe-6ceb-45a9-9f34-c6da1e55aa8e-00030fd3",
+      "rotation": {
+        "qx": 0,
+        "qy": 0,
+        "qz": 0,
+        "qw": 0
+      },
+      "vector": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "mesh_id": 200659
+    },
+    {
+      "type": "Model Groups",
+      "info": {
+        "Category": "Model Groups",
+        "ElementID": "200661",
+        "Reference Level": "02 - Floor",
+        "Origin Level Offset": "-1550",
+        "Image": "<None>",
+        "Export to IFC": "By Type",
+        "IfcGUID": "3Sm8Z_REj5gPyqnjeULgLR"
+      },
+      "face_colors": [],
+      "guid": "dcc088fe-6ceb-45a9-9f34-c6da1e55aa8e-00030fd5",
+      "rotation": {
+        "qx": 0,
+        "qy": 0,
+        "qz": 0,
+        "qw": 0
+      },
+      "vector": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "mesh_id": 200661
+    },
+    {
+      "type": "Model Groups",
+      "info": {
+        "Category": "Model Groups",
+        "ElementID": "200663",
+        "Reference Level": "02 - Floor",
+        "Origin Level Offset": "-1550",
+        "Image": "<None>",
+        "Export to IFC": "By Type",
+        "IfcGUID": "3Sm8Z_REj5gPyqnjeULgLP"
+      },
+      "face_colors": [],
+      "guid": "dcc088fe-6ceb-45a9-9f34-c6da1e55aa8e-00030fd7",
+      "rotation": {
+        "qx": 0,
+        "qy": 0,
+        "qz": 0,
+        "qw": 0
+      },
+      "vector": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "mesh_id": 200663
+    },
+    {
+      "type": "Model Groups",
+      "info": {
+        "Category": "Model Groups",
+        "ElementID": "200665",
+        "Reference Level": "02 - Floor",
+        "Origin Level Offset": "-1550",
+        "Image": "<None>",
+        "Export to IFC": "By Type",
+        "IfcGUID": "3Sm8Z_REj5gPyqnjeULgLN"
+      },
+      "face_colors": [],
+      "guid": "dcc088fe-6ceb-45a9-9f34-c6da1e55aa8e-00030fd9",
+      "rotation": {
+        "qx": 0,
+        "qy": 0,
+        "qz": 0,
+        "qw": 0
+      },
+      "vector": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "mesh_id": 200665
+    },
+    {
+      "type": "Model Groups",
+      "info": {
+        "Category": "Model Groups",
+        "ElementID": "200667",
+        "Reference Level": "02 - Floor",
+        "Origin Level Offset": "-1550",
+        "Image": "<None>",
+        "Export to IFC": "By Type",
+        "IfcGUID": "3Sm8Z_REj5gPyqnjeULgLL"
+      },
+      "face_colors": [],
+      "guid": "dcc088fe-6ceb-45a9-9f34-c6da1e55aa8e-00030fdb",
+      "rotation": {
+        "qx": 0,
+        "qy": 0,
+        "qz": 0,
+        "qw": 0
+      },
+      "vector": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "mesh_id": 200667
+    },
+    {
+      "type": "Model Groups",
+      "info": {
+        "Category": "Model Groups",
+        "ElementID": "200669",
+        "Reference Level": "02 - Floor",
+        "Origin Level Offset": "-1550",
+        "Image": "<None>",
+        "Export to IFC": "By Type",
+        "IfcGUID": "3Sm8Z_REj5gPyqnjeULgLJ"
+      },
+      "face_colors": [],
+      "guid": "dcc088fe-6ceb-45a9-9f34-c6da1e55aa8e-00030fdd",
+      "rotation": {
+        "qx": 0,
+        "qy": 0,
+        "qz": 0,
+        "qw": 0
+      },
+      "vector": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "mesh_id": 200669
+    },
+    {
+      "type": "Model Groups",
+      "info": {
+        "Category": "Model Groups",
+        "ElementID": "200671",
+        "Reference Level": "02 - Floor",
+        "Origin Level Offset": "-1550",
+        "Image": "<None>",
+        "Export to IFC": "By Type",
+        "IfcGUID": "3Sm8Z_REj5gPyqnjeULgLH"
+      },
+      "face_colors": [],
+      "guid": "dcc088fe-6ceb-45a9-9f34-c6da1e55aa8e-00030fdf",
+      "rotation": {
+        "qx": 0,
+        "qy": 0,
+        "qz": 0,
+        "qw": 0
+      },
+      "vector": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "mesh_id": 200671
+    },
+    {
+      "type": "Model Groups",
+      "info": {
+        "Category": "Model Groups",
+        "ElementID": "200673",
+        "Reference Level": "02 - Floor",
+        "Origin Level Offset": "-1550",
+        "Image": "<None>",
+        "Export to IFC": "By Type",
+        "IfcGUID": "3Sm8Z_REj5gPyqnjeULgLl"
+      },
+      "face_colors": [],
+      "guid": "dcc088fe-6ceb-45a9-9f34-c6da1e55aa8e-00030fe1",
+      "rotation": {
+        "qx": 0,
+        "qy": 0,
+        "qz": 0,
+        "qw": 0
+      },
+      "vector": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "mesh_id": 200673
+    },
+    {
+      "type": "Model Groups",
+      "info": {
+        "Category": "Model Groups",
+        "ElementID": "200675",
+        "Reference Level": "02 - Floor",
+        "Origin Level Offset": "-1550",
+        "Image": "<None>",
+        "Export to IFC": "By Type",
+        "IfcGUID": "3Sm8Z_REj5gPyqnjeULgLj"
+      },
+      "face_colors": [],
+      "guid": "dcc088fe-6ceb-45a9-9f34-c6da1e55aa8e-00030fe3",
+      "rotation": {
+        "qx": 0,
+        "qy": 0,
+        "qz": 0,
+        "qw": 0
+      },
+      "vector": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "mesh_id": 200675
+    },
+    {
+      "type": "Model Groups",
+      "info": {
+        "Category": "Model Groups",
+        "ElementID": "200677",
+        "Reference Level": "02 - Floor",
+        "Origin Level Offset": "-1550",
+        "Image": "<None>",
+        "Export to IFC": "By Type",
+        "IfcGUID": "3Sm8Z_REj5gPyqnjeULgLh"
+      },
+      "face_colors": [],
+      "guid": "dcc088fe-6ceb-45a9-9f34-c6da1e55aa8e-00030fe5",
+      "rotation": {
+        "qx": 0,
+        "qy": 0,
+        "qz": 0,
+        "qw": 0
+      },
+      "vector": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "mesh_id": 200677
+    },
+    {
+      "type": "Model Groups",
+      "info": {
+        "Category": "Model Groups",
+        "ElementID": "200679",
+        "Reference Level": "02 - Floor",
+        "Origin Level Offset": "-1550",
+        "Image": "<None>",
+        "Export to IFC": "By Type",
+        "IfcGUID": "3Sm8Z_REj5gPyqnjeULgLf"
+      },
+      "face_colors": [],
+      "guid": "dcc088fe-6ceb-45a9-9f34-c6da1e55aa8e-00030fe7",
+      "rotation": {
+        "qx": 0,
+        "qy": 0,
+        "qz": 0,
+        "qw": 0
+      },
+      "vector": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "mesh_id": 200679
+    },
+    {
+      "type": "Model Groups",
+      "info": {
+        "Category": "Model Groups",
+        "ElementID": "200681",
+        "Reference Level": "02 - Floor",
+        "Origin Level Offset": "-1550",
+        "Image": "<None>",
+        "Export to IFC": "By Type",
+        "IfcGUID": "3Sm8Z_REj5gPyqnjeULgLd"
+      },
+      "face_colors": [],
+      "guid": "dcc088fe-6ceb-45a9-9f34-c6da1e55aa8e-00030fe9",
+      "rotation": {
+        "qx": 0,
+        "qy": 0,
+        "qz": 0,
+        "qw": 0
+      },
+      "vector": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "mesh_id": 200681
+    },
+    {
+      "type": "Model Groups",
+      "info": {
+        "Category": "Model Groups",
+        "ElementID": "200683",
+        "Reference Level": "02 - Floor",
+        "Origin Level Offset": "-1550",
+        "Image": "<None>",
+        "Export to IFC": "By Type",
+        "IfcGUID": "3Sm8Z_REj5gPyqnjeULgLb"
+      },
+      "face_colors": [],
+      "guid": "dcc088fe-6ceb-45a9-9f34-c6da1e55aa8e-00030feb",
+      "rotation": {
+        "qx": 0,
+        "qy": 0,
+        "qz": 0,
+        "qw": 0
+      },
+      "vector": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "mesh_id": 200683
+    },
+    {
+      "type": "Model Groups",
+      "info": {
+        "Category": "Model Groups",
+        "ElementID": "200685",
+        "Reference Level": "02 - Floor",
+        "Origin Level Offset": "-1550",
+        "Image": "<None>",
+        "Export to IFC": "By Type",
+        "IfcGUID": "3Sm8Z_REj5gPyqnjeULgLZ"
+      },
+      "face_colors": [],
+      "guid": "dcc088fe-6ceb-45a9-9f34-c6da1e55aa8e-00030fed",
+      "rotation": {
+        "qx": 0,
+        "qy": 0,
+        "qz": 0,
+        "qw": 0
+      },
+      "vector": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "mesh_id": 200685
+    },
+    {
+      "type": "Model Groups",
+      "info": {
+        "Category": "Model Groups",
+        "ElementID": "200687",
+        "Reference Level": "02 - Floor",
+        "Origin Level Offset": "-1550",
+        "Image": "<None>",
+        "Export to IFC": "By Type",
+        "IfcGUID": "3Sm8Z_REj5gPyqnjeULgLX"
+      },
+      "face_colors": [],
+      "guid": "dcc088fe-6ceb-45a9-9f34-c6da1e55aa8e-00030fef",
+      "rotation": {
+        "qx": 0,
+        "qy": 0,
+        "qz": 0,
+        "qw": 0
+      },
+      "vector": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "mesh_id": 200687
+    },
+    {
+      "type": "Model Groups",
+      "info": {
+        "Category": "Model Groups",
+        "ElementID": "200741",
+        "Reference Level": "02 - Floor",
+        "Origin Level Offset": "-1550",
+        "Image": "<None>",
+        "Export to IFC": "By Type",
+        "IfcGUID": "3Sm8Z_REj5gPyqnjeULhgh"
+      },
+      "face_colors": [],
+      "guid": "dcc088fe-6ceb-45a9-9f34-c6da1e55aa8e-00031025",
+      "rotation": {
+        "qx": 0,
+        "qy": 0,
+        "qz": 0,
+        "qw": 0
+      },
+      "vector": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "mesh_id": 200741
+    },
+    {
+      "type": "Model Groups",
+      "info": {
+        "Category": "Model Groups",
+        "ElementID": "200744",
+        "Reference Level": "02 - Floor",
+        "Origin Level Offset": "-1550",
+        "Image": "<None>",
+        "Export to IFC": "By Type",
+        "IfcGUID": "3Sm8Z_REj5gPyqnjeULhgc"
+      },
+      "face_colors": [],
+      "guid": "dcc088fe-6ceb-45a9-9f34-c6da1e55aa8e-00031028",
+      "rotation": {
+        "qx": 0,
+        "qy": 0,
+        "qz": 0,
+        "qw": 0
+      },
+      "vector": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "mesh_id": 200744
+    },
+    {
+      "type": "Model Groups",
+      "info": {
+        "Category": "Model Groups",
+        "ElementID": "200756",
+        "Reference Level": "02 - Floor",
+        "Origin Level Offset": "-1550",
+        "Image": "<None>",
+        "Export to IFC": "By Type",
+        "IfcGUID": "3Sm8Z_REj5gPyqnjeULhgw"
+      },
+      "face_colors": [],
+      "guid": "dcc088fe-6ceb-45a9-9f34-c6da1e55aa8e-00031034",
+      "rotation": {
+        "qx": 0,
+        "qy": 0,
+        "qz": 0,
+        "qw": 0
+      },
+      "vector": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "mesh_id": 200756
+    },
+    {
+      "type": "Model Groups",
+      "info": {
+        "Category": "Model Groups",
+        "ElementID": "200758",
+        "Reference Level": "02 - Floor",
+        "Origin Level Offset": "-1550",
+        "Image": "<None>",
+        "Export to IFC": "By Type",
+        "IfcGUID": "3Sm8Z_REj5gPyqnjeULhgu"
+      },
+      "face_colors": [],
+      "guid": "dcc088fe-6ceb-45a9-9f34-c6da1e55aa8e-00031036",
+      "rotation": {
+        "qx": 0,
+        "qy": 0,
+        "qz": 0,
+        "qw": 0
+      },
+      "vector": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "mesh_id": 200758
+    },
+    {
+      "type": "Model Groups",
+      "info": {
+        "Category": "Model Groups",
+        "ElementID": "200828",
+        "Reference Level": "02 - Floor",
+        "Origin Level Offset": "-1550",
+        "Image": "<None>",
+        "Export to IFC": "By Type",
+        "IfcGUID": "3Sm8Z_REj5gPyqnjeULhho"
+      },
+      "face_colors": [],
+      "guid": "dcc088fe-6ceb-45a9-9f34-c6da1e55aa8e-0003107c",
+      "rotation": {
+        "qx": 0,
+        "qy": 0,
+        "qz": 0,
+        "qw": 0
+      },
+      "vector": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "mesh_id": 200828
+    },
+    {
+      "type": "Model Groups",
+      "info": {
+        "Category": "Model Groups",
+        "ElementID": "200831",
+        "Reference Level": "02 - Floor",
+        "Origin Level Offset": "-1550",
+        "Image": "<None>",
+        "Export to IFC": "By Type",
+        "IfcGUID": "3Sm8Z_REj5gPyqnjeULhhn"
+      },
+      "face_colors": [],
+      "guid": "dcc088fe-6ceb-45a9-9f34-c6da1e55aa8e-0003107f",
+      "rotation": {
+        "qx": 0,
+        "qy": 0,
+        "qz": 0,
+        "qw": 0
+      },
+      "vector": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "mesh_id": 200831
+    },
+    {
+      "type": "Model Groups",
+      "info": {
+        "Category": "Model Groups",
+        "ElementID": "200841",
+        "Reference Level": "02 - Floor",
+        "Origin Level Offset": "-1550",
+        "Image": "<None>",
+        "Export to IFC": "By Type",
+        "IfcGUID": "3Sm8Z_REj5gPyqnjeULhe7"
+      },
+      "face_colors": [],
+      "guid": "dcc088fe-6ceb-45a9-9f34-c6da1e55aa8e-00031089",
+      "rotation": {
+        "qx": 0,
+        "qy": 0,
+        "qz": 0,
+        "qw": 0
+      },
+      "vector": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "mesh_id": 200841
+    },
+    {
+      "type": "Model Groups",
+      "info": {
+        "Category": "Model Groups",
+        "ElementID": "200843",
+        "Reference Level": "02 - Floor",
+        "Origin Level Offset": "-1550",
+        "Image": "<None>",
+        "Export to IFC": "By Type",
+        "IfcGUID": "3Sm8Z_REj5gPyqnjeULhe5"
+      },
+      "face_colors": [],
+      "guid": "dcc088fe-6ceb-45a9-9f34-c6da1e55aa8e-0003108b",
+      "rotation": {
+        "qx": 0,
+        "qy": 0,
+        "qz": 0,
+        "qw": 0
+      },
+      "vector": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "mesh_id": 200843
+    },
+    {
+      "type": "Model Groups",
+      "info": {
+        "Category": "Model Groups",
+        "ElementID": "200845",
+        "Reference Level": "02 - Floor",
+        "Origin Level Offset": "-1550",
+        "Image": "<None>",
+        "Export to IFC": "By Type",
+        "IfcGUID": "3Sm8Z_REj5gPyqnjeULhe3"
+      },
+      "face_colors": [],
+      "guid": "dcc088fe-6ceb-45a9-9f34-c6da1e55aa8e-0003108d",
+      "rotation": {
+        "qx": 0,
+        "qy": 0,
+        "qz": 0,
+        "qw": 0
+      },
+      "vector": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "mesh_id": 200845
+    },
+    {
+      "type": "Model Groups",
+      "info": {
+        "Category": "Model Groups",
+        "ElementID": "200847",
+        "Reference Level": "02 - Floor",
+        "Origin Level Offset": "-1550",
+        "Image": "<None>",
+        "Export to IFC": "By Type",
+        "IfcGUID": "3Sm8Z_REj5gPyqnjeULhe1"
+      },
+      "face_colors": [],
+      "guid": "dcc088fe-6ceb-45a9-9f34-c6da1e55aa8e-0003108f",
+      "rotation": {
+        "qx": 0,
+        "qy": 0,
+        "qz": 0,
+        "qw": 0
+      },
+      "vector": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "mesh_id": 200847
+    },
+    {
+      "type": "Model Groups",
+      "info": {
+        "Category": "Model Groups",
+        "ElementID": "200849",
+        "Reference Level": "02 - Floor",
+        "Origin Level Offset": "-1550",
+        "Image": "<None>",
+        "Export to IFC": "By Type",
+        "IfcGUID": "3Sm8Z_REj5gPyqnjeULheV"
+      },
+      "face_colors": [],
+      "guid": "dcc088fe-6ceb-45a9-9f34-c6da1e55aa8e-00031091",
+      "rotation": {
+        "qx": 0,
+        "qy": 0,
+        "qz": 0,
+        "qw": 0
+      },
+      "vector": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "mesh_id": 200849
+    },
+    {
+      "type": "Model Groups",
+      "info": {
+        "Category": "Model Groups",
+        "ElementID": "200851",
+        "Reference Level": "02 - Floor",
+        "Origin Level Offset": "-1550",
+        "Image": "<None>",
+        "Export to IFC": "By Type",
+        "IfcGUID": "3Sm8Z_REj5gPyqnjeULheT"
+      },
+      "face_colors": [],
+      "guid": "dcc088fe-6ceb-45a9-9f34-c6da1e55aa8e-00031093",
+      "rotation": {
+        "qx": 0,
+        "qy": 0,
+        "qz": 0,
+        "qw": 0
+      },
+      "vector": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "mesh_id": 200851
+    },
+    {
+      "type": "Model Groups",
+      "info": {
+        "Category": "Model Groups",
+        "ElementID": "200853",
+        "Reference Level": "02 - Floor",
+        "Origin Level Offset": "-1550",
+        "Image": "<None>",
+        "Export to IFC": "By Type",
+        "IfcGUID": "3Sm8Z_REj5gPyqnjeULheR"
+      },
+      "face_colors": [],
+      "guid": "dcc088fe-6ceb-45a9-9f34-c6da1e55aa8e-00031095",
+      "rotation": {
+        "qx": 0,
+        "qy": 0,
+        "qz": 0,
+        "qw": 0
+      },
+      "vector": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "mesh_id": 200853
+    },
+    {
+      "type": "Model Groups",
+      "info": {
+        "Category": "Model Groups",
+        "ElementID": "200855",
+        "Reference Level": "02 - Floor",
+        "Origin Level Offset": "-1550",
+        "Image": "<None>",
+        "Export to IFC": "By Type",
+        "IfcGUID": "3Sm8Z_REj5gPyqnjeULheP"
+      },
+      "face_colors": [],
+      "guid": "dcc088fe-6ceb-45a9-9f34-c6da1e55aa8e-00031097",
+      "rotation": {
+        "qx": 0,
+        "qy": 0,
+        "qz": 0,
+        "qw": 0
+      },
+      "vector": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "mesh_id": 200855
+    },
+    {
+      "type": "Model Groups",
+      "info": {
+        "Category": "Model Groups",
+        "ElementID": "200857",
+        "Reference Level": "02 - Floor",
+        "Origin Level Offset": "-1550",
+        "Image": "<None>",
+        "Export to IFC": "By Type",
+        "IfcGUID": "3Sm8Z_REj5gPyqnjeULheN"
+      },
+      "face_colors": [],
+      "guid": "dcc088fe-6ceb-45a9-9f34-c6da1e55aa8e-00031099",
+      "rotation": {
+        "qx": 0,
+        "qy": 0,
+        "qz": 0,
+        "qw": 0
+      },
+      "vector": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "mesh_id": 200857
+    },
+    {
+      "type": "Model Groups",
+      "info": {
+        "Category": "Model Groups",
+        "ElementID": "200904",
+        "Reference Level": "02 - Floor",
+        "Origin Level Offset": "-1550",
+        "Image": "<None>",
+        "Export to IFC": "By Type",
+        "IfcGUID": "3Sm8Z_REj5gPyqnjeULhf6"
+      },
+      "face_colors": [],
+      "guid": "dcc088fe-6ceb-45a9-9f34-c6da1e55aa8e-000310c8",
+      "rotation": {
+        "qx": 0,
+        "qy": 0,
+        "qz": 0,
+        "qw": 0
+      },
+      "vector": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "mesh_id": 200904
+    },
+    {
+      "type": "Model Groups",
+      "info": {
+        "Category": "Model Groups",
+        "ElementID": "200907",
+        "Reference Level": "02 - Floor",
+        "Origin Level Offset": "-1550",
+        "Image": "<None>",
+        "Export to IFC": "By Type",
+        "IfcGUID": "3Sm8Z_REj5gPyqnjeULhf5"
+      },
+      "face_colors": [],
+      "guid": "dcc088fe-6ceb-45a9-9f34-c6da1e55aa8e-000310cb",
+      "rotation": {
+        "qx": 0,
+        "qy": 0,
+        "qz": 0,
+        "qw": 0
+      },
+      "vector": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "mesh_id": 200907
+    },
+    {
+      "type": "Model Groups",
+      "info": {
+        "Category": "Model Groups",
+        "ElementID": "200923",
+        "Reference Level": "02 - Floor",
+        "Origin Level Offset": "-1550",
+        "Image": "<None>",
+        "Export to IFC": "By Type",
+        "IfcGUID": "3Sm8Z_REj5gPyqnjeULhfL"
+      },
+      "face_colors": [],
+      "guid": "dcc088fe-6ceb-45a9-9f34-c6da1e55aa8e-000310db",
+      "rotation": {
+        "qx": 0,
+        "qy": 0,
+        "qz": 0,
+        "qw": 0
+      },
+      "vector": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "mesh_id": 200923
+    },
+    {
+      "type": "Model Groups",
+      "info": {
+        "Category": "Model Groups",
+        "ElementID": "200925",
+        "Reference Level": "02 - Floor",
+        "Origin Level Offset": "-1550",
+        "Image": "<None>",
+        "Export to IFC": "By Type",
+        "IfcGUID": "3Sm8Z_REj5gPyqnjeULhfJ"
+      },
+      "face_colors": [],
+      "guid": "dcc088fe-6ceb-45a9-9f34-c6da1e55aa8e-000310dd",
+      "rotation": {
+        "qx": 0,
+        "qy": 0,
+        "qz": 0,
+        "qw": 0
+      },
+      "vector": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "mesh_id": 200925
+    },
+    {
+      "type": "Model Groups",
+      "info": {
+        "Category": "Model Groups",
+        "ElementID": "243412",
+        "Reference Level": "03 - Floor",
+        "Origin Level Offset": "0",
+        "Image": "<None>",
+        "Export to IFC": "By Type",
+        "IfcGUID": "3QB0iu0r58DRHQst4GizUf"
+      },
+      "face_colors": [],
+      "guid": "da2c0b38-0351-4835-b45a-db7110b0617d-0003b6d4",
+      "rotation": {
+        "qx": 0,
+        "qy": 0,
+        "qz": 0,
+        "qw": 0
+      },
+      "vector": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "mesh_id": 243412
+    },
+    {
+      "type": "Model Groups",
+      "info": {
+        "Category": "Model Groups",
+        "ElementID": "243562",
+        "Reference Level": "03 - Floor",
+        "Origin Level Offset": "0",
+        "Image": "<None>",
+        "Export to IFC": "By Type",
+        "IfcGUID": "3QB0iu0r58DRHQst4GizON"
+      },
+      "face_colors": [],
+      "guid": "da2c0b38-0351-4835-b45a-db7110b0617d-0003b76a",
+      "rotation": {
+        "qx": 0,
+        "qy": 0,
+        "qz": 0,
+        "qw": 0
+      },
+      "vector": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "mesh_id": 243562
+    },
+    {
+      "type": "Model Groups",
+      "info": {
+        "Category": "Model Groups",
+        "ElementID": "243613",
+        "Reference Level": "03 - Floor",
+        "Origin Level Offset": "0",
+        "Image": "<None>",
+        "Export to IFC": "By Type",
+        "IfcGUID": "3QB0iu0r58DRHQst4GizRW"
+      },
+      "face_colors": [],
+      "guid": "da2c0b38-0351-4835-b45a-db7110b0617d-0003b79d",
+      "rotation": {
+        "qx": 0,
+        "qy": 0,
+        "qz": 0,
+        "qw": 0
+      },
+      "vector": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "mesh_id": 243613
+    },
+    {
+      "type": "Model Groups",
+      "info": {
+        "Category": "Model Groups",
+        "ElementID": "243664",
+        "Reference Level": "03 - Floor",
+        "Origin Level Offset": "0",
+        "Image": "<None>",
+        "Export to IFC": "By Type",
+        "IfcGUID": "3QB0iu0r58DRHQst4GizQj"
+      },
+      "face_colors": [],
+      "guid": "da2c0b38-0351-4835-b45a-db7110b0617d-0003b7d0",
+      "rotation": {
+        "qx": 0,
+        "qy": 0,
+        "qz": 0,
+        "qw": 0
+      },
+      "vector": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "mesh_id": 243664
+    },
+    {
+      "type": "Model Groups",
+      "info": {
+        "Category": "Model Groups",
+        "ElementID": "243715",
+        "Reference Level": "03 - Floor",
+        "Origin Level Offset": "0",
+        "Image": "<None>",
+        "Export to IFC": "By Type",
+        "IfcGUID": "3QB0iu0r58DRHQst4Gizb_"
+      },
+      "face_colors": [],
+      "guid": "da2c0b38-0351-4835-b45a-db7110b0617d-0003b803",
+      "rotation": {
+        "qx": 0,
+        "qy": 0,
+        "qz": 0,
+        "qw": 0
+      },
+      "vector": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "mesh_id": 243715
+    },
+    {
+      "type": "Model Groups",
+      "info": {
+        "Category": "Model Groups",
+        "ElementID": "243766",
+        "Reference Level": "03 - Floor",
+        "Origin Level Offset": "0",
+        "Image": "<None>",
+        "Export to IFC": "By Type",
+        "IfcGUID": "3QB0iu0r58DRHQst4GizbB"
+      },
+      "face_colors": [],
+      "guid": "da2c0b38-0351-4835-b45a-db7110b0617d-0003b836",
+      "rotation": {
+        "qx": 0,
+        "qy": 0,
+        "qz": 0,
+        "qw": 0
+      },
+      "vector": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "mesh_id": 243766
+    },
+    {
+      "type": "Model Groups",
+      "info": {
+        "Category": "Model Groups",
+        "ElementID": "243817",
+        "Reference Level": "03 - Floor",
+        "Origin Level Offset": "0",
+        "Image": "<None>",
+        "Export to IFC": "By Type",
+        "IfcGUID": "3QB0iu0r58DRHQst4GizaK"
+      },
+      "face_colors": [],
+      "guid": "da2c0b38-0351-4835-b45a-db7110b0617d-0003b869",
+      "rotation": {
+        "qx": 0,
+        "qy": 0,
+        "qz": 0,
+        "qw": 0
+      },
+      "vector": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "mesh_id": 243817
+    },
+    {
+      "type": "Model Groups",
+      "info": {
+        "Category": "Model Groups",
+        "ElementID": "247986",
+        "Reference Level": "02 - Floor",
+        "Origin Level Offset": "0",
+        "Image": "<None>",
+        "Export to IFC": "By Type",
+        "IfcGUID": "1rRqdEmin4b9LaCCAQ9MFD"
+      },
+      "face_colors": [],
+      "guid": "756f49ce-c2cc-4494-9564-30c29a26ab7f-0003c8b2",
+      "rotation": {
+        "qx": 0,
+        "qy": 0,
+        "qz": 0,
+        "qw": 0
+      },
+      "vector": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "mesh_id": 247986
+    },
+    {
+      "type": "Model Groups",
+      "info": {
+        "Category": "Model Groups",
+        "ElementID": "248030",
+        "Reference Level": "02 - Floor",
+        "Origin Level Offset": "0",
+        "Image": "<None>",
+        "Export to IFC": "By Type",
+        "IfcGUID": "1rRqdEmin4b9LaCCAQ9MEX"
+      },
+      "face_colors": [],
+      "guid": "756f49ce-c2cc-4494-9564-30c29a26ab7f-0003c8de",
+      "rotation": {
+        "qx": 0,
+        "qy": 0,
+        "qz": 0,
+        "qw": 0
+      },
+      "vector": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "mesh_id": 248030
+    },
+    {
+      "type": "Model Groups",
+      "info": {
+        "Category": "Model Groups",
+        "ElementID": "248156",
+        "Reference Level": "02 - Floor",
+        "Origin Level Offset": "0",
+        "Image": "<None>",
+        "Export to IFC": "By Type",
+        "IfcGUID": "1rRqdEmin4b9LaCCAQ9M8Z"
+      },
+      "face_colors": [],
+      "guid": "756f49ce-c2cc-4494-9564-30c29a26ab7f-0003c95c",
+      "rotation": {
+        "qx": 0,
+        "qy": 0,
+        "qz": 0,
+        "qw": 0
+      },
+      "vector": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "mesh_id": 248156
+    },
+    {
+      "type": "Model Groups",
+      "info": {
+        "Category": "Model Groups",
+        "ElementID": "248199",
+        "Reference Level": "02 - Floor",
+        "Origin Level Offset": "0",
+        "Image": "<None>",
+        "Export to IFC": "By Type",
+        "IfcGUID": "1rRqdEmin4b9LaCCAQ9MBu"
+      },
+      "face_colors": [],
+      "guid": "756f49ce-c2cc-4494-9564-30c29a26ab7f-0003c987",
+      "rotation": {
+        "qx": 0,
+        "qy": 0,
+        "qz": 0,
+        "qw": 0
+      },
+      "vector": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "mesh_id": 248199
+    },
+    {
+      "type": "Model Groups",
+      "info": {
+        "Category": "Model Groups",
+        "ElementID": "248242",
+        "Reference Level": "02 - Floor",
+        "Origin Level Offset": "0",
+        "Image": "<None>",
+        "Export to IFC": "By Type",
+        "IfcGUID": "1rRqdEmin4b9LaCCAQ9MBD"
+      },
+      "face_colors": [],
+      "guid": "756f49ce-c2cc-4494-9564-30c29a26ab7f-0003c9b2",
+      "rotation": {
+        "qx": 0,
+        "qy": 0,
+        "qz": 0,
+        "qw": 0
+      },
+      "vector": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "mesh_id": 248242
+    },
+    {
+      "type": "Model Groups",
+      "info": {
+        "Category": "Model Groups",
+        "ElementID": "248285",
+        "Reference Level": "02 - Floor",
+        "Origin Level Offset": "0",
+        "Image": "<None>",
+        "Export to IFC": "By Type",
+        "IfcGUID": "1rRqdEmin4b9LaCCAQ9MAY"
+      },
+      "face_colors": [],
+      "guid": "756f49ce-c2cc-4494-9564-30c29a26ab7f-0003c9dd",
+      "rotation": {
+        "qx": 0,
+        "qy": 0,
+        "qz": 0,
+        "qw": 0
+      },
+      "vector": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "mesh_id": 248285
+    },
+    {
+      "type": "Model Groups",
+      "info": {
+        "Category": "Model Groups",
+        "ElementID": "248328",
+        "Reference Level": "02 - Floor",
+        "Origin Level Offset": "0",
+        "Image": "<None>",
+        "Export to IFC": "By Type",
+        "IfcGUID": "1rRqdEmin4b9LaCCAQ9M5t"
+      },
+      "face_colors": [],
+      "guid": "756f49ce-c2cc-4494-9564-30c29a26ab7f-0003ca08",
+      "rotation": {
+        "qx": 0,
+        "qy": 0,
+        "qz": 0,
+        "qw": 0
+      },
+      "vector": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "mesh_id": 248328
+    }
+  ]
+}

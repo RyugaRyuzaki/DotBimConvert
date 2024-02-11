@@ -1,0 +1,853 @@
+{
+  "schema_version": "1.0.0",
+  "info": {
+    "Description": "",
+    "Author": "https://github.com/RyugaRyuzaki",
+    "OriginAuthor": "https://github.com/paireks",
+    "Category": "Curtain Roof Grids"
+  },
+  "meshes": [
+    {
+      "mesh_id": 165784,
+      "coordinates": [],
+      "indices": []
+    },
+    {
+      "mesh_id": 165993,
+      "coordinates": [],
+      "indices": []
+    },
+    {
+      "mesh_id": 166134,
+      "coordinates": [],
+      "indices": []
+    },
+    {
+      "mesh_id": 166200,
+      "coordinates": [],
+      "indices": []
+    },
+    {
+      "mesh_id": 166226,
+      "coordinates": [],
+      "indices": []
+    },
+    {
+      "mesh_id": 166281,
+      "coordinates": [],
+      "indices": []
+    },
+    {
+      "mesh_id": 166506,
+      "coordinates": [],
+      "indices": []
+    },
+    {
+      "mesh_id": 166571,
+      "coordinates": [],
+      "indices": []
+    },
+    {
+      "mesh_id": 166669,
+      "coordinates": [],
+      "indices": []
+    },
+    {
+      "mesh_id": 166731,
+      "coordinates": [],
+      "indices": []
+    },
+    {
+      "mesh_id": 167045,
+      "coordinates": [],
+      "indices": []
+    },
+    {
+      "mesh_id": 167047,
+      "coordinates": [],
+      "indices": []
+    },
+    {
+      "mesh_id": 167049,
+      "coordinates": [],
+      "indices": []
+    },
+    {
+      "mesh_id": 167051,
+      "coordinates": [],
+      "indices": []
+    },
+    {
+      "mesh_id": 167053,
+      "coordinates": [],
+      "indices": []
+    },
+    {
+      "mesh_id": 167055,
+      "coordinates": [],
+      "indices": []
+    },
+    {
+      "mesh_id": 167057,
+      "coordinates": [],
+      "indices": []
+    },
+    {
+      "mesh_id": 167059,
+      "coordinates": [],
+      "indices": []
+    },
+    {
+      "mesh_id": 167061,
+      "coordinates": [],
+      "indices": []
+    },
+    {
+      "mesh_id": 167063,
+      "coordinates": [],
+      "indices": []
+    },
+    {
+      "mesh_id": 167167,
+      "coordinates": [],
+      "indices": []
+    },
+    {
+      "mesh_id": 167169,
+      "coordinates": [],
+      "indices": []
+    },
+    {
+      "mesh_id": 167171,
+      "coordinates": [],
+      "indices": []
+    },
+    {
+      "mesh_id": 167173,
+      "coordinates": [],
+      "indices": []
+    },
+    {
+      "mesh_id": 167175,
+      "coordinates": [],
+      "indices": []
+    },
+    {
+      "mesh_id": 167177,
+      "coordinates": [],
+      "indices": []
+    },
+    {
+      "mesh_id": 167179,
+      "coordinates": [],
+      "indices": []
+    },
+    {
+      "mesh_id": 167181,
+      "coordinates": [],
+      "indices": []
+    },
+    {
+      "mesh_id": 167183,
+      "coordinates": [],
+      "indices": []
+    },
+    {
+      "mesh_id": 167185,
+      "coordinates": [],
+      "indices": []
+    }
+  ],
+  "elements": [
+    {
+      "type": "Curtain Roof Grids",
+      "info": {
+        "Category": "Curtain Roof Grids",
+        "ElementID": "165784",
+        "Phase Created": "New Construction",
+        "Phase Demolished": "None"
+      },
+      "face_colors": [],
+      "guid": "9e597f98-694d-4ada-b8ef-0e7459e0b930-00028798",
+      "rotation": {
+        "qx": 0,
+        "qy": 0,
+        "qz": 0,
+        "qw": 0
+      },
+      "vector": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "mesh_id": 165784
+    },
+    {
+      "type": "Curtain Roof Grids",
+      "info": {
+        "Category": "Curtain Roof Grids",
+        "ElementID": "165993",
+        "Phase Created": "New Construction",
+        "Phase Demolished": "None"
+      },
+      "face_colors": [],
+      "guid": "9e597f98-694d-4ada-b8ef-0e7459e0b930-00028869",
+      "rotation": {
+        "qx": 0,
+        "qy": 0,
+        "qz": 0,
+        "qw": 0
+      },
+      "vector": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "mesh_id": 165993
+    },
+    {
+      "type": "Curtain Roof Grids",
+      "info": {
+        "Category": "Curtain Roof Grids",
+        "ElementID": "166134",
+        "Phase Created": "New Construction",
+        "Phase Demolished": "None"
+      },
+      "face_colors": [],
+      "guid": "9e597f98-694d-4ada-b8ef-0e7459e0b930-000288f6",
+      "rotation": {
+        "qx": 0,
+        "qy": 0,
+        "qz": 0,
+        "qw": 0
+      },
+      "vector": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "mesh_id": 166134
+    },
+    {
+      "type": "Curtain Roof Grids",
+      "info": {
+        "Category": "Curtain Roof Grids",
+        "ElementID": "166200",
+        "Phase Created": "New Construction",
+        "Phase Demolished": "None"
+      },
+      "face_colors": [],
+      "guid": "9e597f98-694d-4ada-b8ef-0e7459e0b930-00028938",
+      "rotation": {
+        "qx": 0,
+        "qy": 0,
+        "qz": 0,
+        "qw": 0
+      },
+      "vector": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "mesh_id": 166200
+    },
+    {
+      "type": "Curtain Roof Grids",
+      "info": {
+        "Category": "Curtain Roof Grids",
+        "ElementID": "166226",
+        "Phase Created": "New Construction",
+        "Phase Demolished": "None"
+      },
+      "face_colors": [],
+      "guid": "9e597f98-694d-4ada-b8ef-0e7459e0b930-00028952",
+      "rotation": {
+        "qx": 0,
+        "qy": 0,
+        "qz": 0,
+        "qw": 0
+      },
+      "vector": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "mesh_id": 166226
+    },
+    {
+      "type": "Curtain Roof Grids",
+      "info": {
+        "Category": "Curtain Roof Grids",
+        "ElementID": "166281",
+        "Phase Created": "New Construction",
+        "Phase Demolished": "None"
+      },
+      "face_colors": [],
+      "guid": "9e597f98-694d-4ada-b8ef-0e7459e0b930-00028989",
+      "rotation": {
+        "qx": 0,
+        "qy": 0,
+        "qz": 0,
+        "qw": 0
+      },
+      "vector": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "mesh_id": 166281
+    },
+    {
+      "type": "Curtain Roof Grids",
+      "info": {
+        "Category": "Curtain Roof Grids",
+        "ElementID": "166506",
+        "Phase Created": "New Construction",
+        "Phase Demolished": "None"
+      },
+      "face_colors": [],
+      "guid": "9e597f98-694d-4ada-b8ef-0e7459e0b930-00028a6a",
+      "rotation": {
+        "qx": 0,
+        "qy": 0,
+        "qz": 0,
+        "qw": 0
+      },
+      "vector": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "mesh_id": 166506
+    },
+    {
+      "type": "Curtain Roof Grids",
+      "info": {
+        "Category": "Curtain Roof Grids",
+        "ElementID": "166571",
+        "Phase Created": "New Construction",
+        "Phase Demolished": "None"
+      },
+      "face_colors": [],
+      "guid": "9e597f98-694d-4ada-b8ef-0e7459e0b930-00028aab",
+      "rotation": {
+        "qx": 0,
+        "qy": 0,
+        "qz": 0,
+        "qw": 0
+      },
+      "vector": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "mesh_id": 166571
+    },
+    {
+      "type": "Curtain Roof Grids",
+      "info": {
+        "Category": "Curtain Roof Grids",
+        "ElementID": "166669",
+        "Phase Created": "New Construction",
+        "Phase Demolished": "None"
+      },
+      "face_colors": [],
+      "guid": "9e597f98-694d-4ada-b8ef-0e7459e0b930-00028b0d",
+      "rotation": {
+        "qx": 0,
+        "qy": 0,
+        "qz": 0,
+        "qw": 0
+      },
+      "vector": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "mesh_id": 166669
+    },
+    {
+      "type": "Curtain Roof Grids",
+      "info": {
+        "Category": "Curtain Roof Grids",
+        "ElementID": "166731",
+        "Phase Created": "New Construction",
+        "Phase Demolished": "None"
+      },
+      "face_colors": [],
+      "guid": "9e597f98-694d-4ada-b8ef-0e7459e0b930-00028b4b",
+      "rotation": {
+        "qx": 0,
+        "qy": 0,
+        "qz": 0,
+        "qw": 0
+      },
+      "vector": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "mesh_id": 166731
+    },
+    {
+      "type": "Curtain Roof Grids",
+      "info": {
+        "Category": "Curtain Roof Grids",
+        "ElementID": "167045",
+        "Phase Created": "New Construction",
+        "Phase Demolished": "None"
+      },
+      "face_colors": [],
+      "guid": "9e597f98-694d-4ada-b8ef-0e7459e0b930-00028c85",
+      "rotation": {
+        "qx": 0,
+        "qy": 0,
+        "qz": 0,
+        "qw": 0
+      },
+      "vector": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "mesh_id": 167045
+    },
+    {
+      "type": "Curtain Roof Grids",
+      "info": {
+        "Category": "Curtain Roof Grids",
+        "ElementID": "167047",
+        "Phase Created": "New Construction",
+        "Phase Demolished": "None"
+      },
+      "face_colors": [],
+      "guid": "9e597f98-694d-4ada-b8ef-0e7459e0b930-00028c87",
+      "rotation": {
+        "qx": 0,
+        "qy": 0,
+        "qz": 0,
+        "qw": 0
+      },
+      "vector": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "mesh_id": 167047
+    },
+    {
+      "type": "Curtain Roof Grids",
+      "info": {
+        "Category": "Curtain Roof Grids",
+        "ElementID": "167049",
+        "Phase Created": "New Construction",
+        "Phase Demolished": "None"
+      },
+      "face_colors": [],
+      "guid": "9e597f98-694d-4ada-b8ef-0e7459e0b930-00028c89",
+      "rotation": {
+        "qx": 0,
+        "qy": 0,
+        "qz": 0,
+        "qw": 0
+      },
+      "vector": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "mesh_id": 167049
+    },
+    {
+      "type": "Curtain Roof Grids",
+      "info": {
+        "Category": "Curtain Roof Grids",
+        "ElementID": "167051",
+        "Phase Created": "New Construction",
+        "Phase Demolished": "None"
+      },
+      "face_colors": [],
+      "guid": "9e597f98-694d-4ada-b8ef-0e7459e0b930-00028c8b",
+      "rotation": {
+        "qx": 0,
+        "qy": 0,
+        "qz": 0,
+        "qw": 0
+      },
+      "vector": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "mesh_id": 167051
+    },
+    {
+      "type": "Curtain Roof Grids",
+      "info": {
+        "Category": "Curtain Roof Grids",
+        "ElementID": "167053",
+        "Phase Created": "New Construction",
+        "Phase Demolished": "None"
+      },
+      "face_colors": [],
+      "guid": "9e597f98-694d-4ada-b8ef-0e7459e0b930-00028c8d",
+      "rotation": {
+        "qx": 0,
+        "qy": 0,
+        "qz": 0,
+        "qw": 0
+      },
+      "vector": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "mesh_id": 167053
+    },
+    {
+      "type": "Curtain Roof Grids",
+      "info": {
+        "Category": "Curtain Roof Grids",
+        "ElementID": "167055",
+        "Phase Created": "New Construction",
+        "Phase Demolished": "None"
+      },
+      "face_colors": [],
+      "guid": "9e597f98-694d-4ada-b8ef-0e7459e0b930-00028c8f",
+      "rotation": {
+        "qx": 0,
+        "qy": 0,
+        "qz": 0,
+        "qw": 0
+      },
+      "vector": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "mesh_id": 167055
+    },
+    {
+      "type": "Curtain Roof Grids",
+      "info": {
+        "Category": "Curtain Roof Grids",
+        "ElementID": "167057",
+        "Phase Created": "New Construction",
+        "Phase Demolished": "None"
+      },
+      "face_colors": [],
+      "guid": "9e597f98-694d-4ada-b8ef-0e7459e0b930-00028c91",
+      "rotation": {
+        "qx": 0,
+        "qy": 0,
+        "qz": 0,
+        "qw": 0
+      },
+      "vector": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "mesh_id": 167057
+    },
+    {
+      "type": "Curtain Roof Grids",
+      "info": {
+        "Category": "Curtain Roof Grids",
+        "ElementID": "167059",
+        "Phase Created": "New Construction",
+        "Phase Demolished": "None"
+      },
+      "face_colors": [],
+      "guid": "9e597f98-694d-4ada-b8ef-0e7459e0b930-00028c93",
+      "rotation": {
+        "qx": 0,
+        "qy": 0,
+        "qz": 0,
+        "qw": 0
+      },
+      "vector": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "mesh_id": 167059
+    },
+    {
+      "type": "Curtain Roof Grids",
+      "info": {
+        "Category": "Curtain Roof Grids",
+        "ElementID": "167061",
+        "Phase Created": "New Construction",
+        "Phase Demolished": "None"
+      },
+      "face_colors": [],
+      "guid": "9e597f98-694d-4ada-b8ef-0e7459e0b930-00028c95",
+      "rotation": {
+        "qx": 0,
+        "qy": 0,
+        "qz": 0,
+        "qw": 0
+      },
+      "vector": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "mesh_id": 167061
+    },
+    {
+      "type": "Curtain Roof Grids",
+      "info": {
+        "Category": "Curtain Roof Grids",
+        "ElementID": "167063",
+        "Phase Created": "New Construction",
+        "Phase Demolished": "None"
+      },
+      "face_colors": [],
+      "guid": "9e597f98-694d-4ada-b8ef-0e7459e0b930-00028c97",
+      "rotation": {
+        "qx": 0,
+        "qy": 0,
+        "qz": 0,
+        "qw": 0
+      },
+      "vector": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "mesh_id": 167063
+    },
+    {
+      "type": "Curtain Roof Grids",
+      "info": {
+        "Category": "Curtain Roof Grids",
+        "ElementID": "167167",
+        "Phase Created": "New Construction",
+        "Phase Demolished": "None"
+      },
+      "face_colors": [],
+      "guid": "9e597f98-694d-4ada-b8ef-0e7459e0b930-00028cff",
+      "rotation": {
+        "qx": 0,
+        "qy": 0,
+        "qz": 0,
+        "qw": 0
+      },
+      "vector": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "mesh_id": 167167
+    },
+    {
+      "type": "Curtain Roof Grids",
+      "info": {
+        "Category": "Curtain Roof Grids",
+        "ElementID": "167169",
+        "Phase Created": "New Construction",
+        "Phase Demolished": "None"
+      },
+      "face_colors": [],
+      "guid": "9e597f98-694d-4ada-b8ef-0e7459e0b930-00028d01",
+      "rotation": {
+        "qx": 0,
+        "qy": 0,
+        "qz": 0,
+        "qw": 0
+      },
+      "vector": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "mesh_id": 167169
+    },
+    {
+      "type": "Curtain Roof Grids",
+      "info": {
+        "Category": "Curtain Roof Grids",
+        "ElementID": "167171",
+        "Phase Created": "New Construction",
+        "Phase Demolished": "None"
+      },
+      "face_colors": [],
+      "guid": "9e597f98-694d-4ada-b8ef-0e7459e0b930-00028d03",
+      "rotation": {
+        "qx": 0,
+        "qy": 0,
+        "qz": 0,
+        "qw": 0
+      },
+      "vector": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "mesh_id": 167171
+    },
+    {
+      "type": "Curtain Roof Grids",
+      "info": {
+        "Category": "Curtain Roof Grids",
+        "ElementID": "167173",
+        "Phase Created": "New Construction",
+        "Phase Demolished": "None"
+      },
+      "face_colors": [],
+      "guid": "9e597f98-694d-4ada-b8ef-0e7459e0b930-00028d05",
+      "rotation": {
+        "qx": 0,
+        "qy": 0,
+        "qz": 0,
+        "qw": 0
+      },
+      "vector": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "mesh_id": 167173
+    },
+    {
+      "type": "Curtain Roof Grids",
+      "info": {
+        "Category": "Curtain Roof Grids",
+        "ElementID": "167175",
+        "Phase Created": "New Construction",
+        "Phase Demolished": "None"
+      },
+      "face_colors": [],
+      "guid": "9e597f98-694d-4ada-b8ef-0e7459e0b930-00028d07",
+      "rotation": {
+        "qx": 0,
+        "qy": 0,
+        "qz": 0,
+        "qw": 0
+      },
+      "vector": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "mesh_id": 167175
+    },
+    {
+      "type": "Curtain Roof Grids",
+      "info": {
+        "Category": "Curtain Roof Grids",
+        "ElementID": "167177",
+        "Phase Created": "New Construction",
+        "Phase Demolished": "None"
+      },
+      "face_colors": [],
+      "guid": "9e597f98-694d-4ada-b8ef-0e7459e0b930-00028d09",
+      "rotation": {
+        "qx": 0,
+        "qy": 0,
+        "qz": 0,
+        "qw": 0
+      },
+      "vector": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "mesh_id": 167177
+    },
+    {
+      "type": "Curtain Roof Grids",
+      "info": {
+        "Category": "Curtain Roof Grids",
+        "ElementID": "167179",
+        "Phase Created": "New Construction",
+        "Phase Demolished": "None"
+      },
+      "face_colors": [],
+      "guid": "9e597f98-694d-4ada-b8ef-0e7459e0b930-00028d0b",
+      "rotation": {
+        "qx": 0,
+        "qy": 0,
+        "qz": 0,
+        "qw": 0
+      },
+      "vector": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "mesh_id": 167179
+    },
+    {
+      "type": "Curtain Roof Grids",
+      "info": {
+        "Category": "Curtain Roof Grids",
+        "ElementID": "167181",
+        "Phase Created": "New Construction",
+        "Phase Demolished": "None"
+      },
+      "face_colors": [],
+      "guid": "9e597f98-694d-4ada-b8ef-0e7459e0b930-00028d0d",
+      "rotation": {
+        "qx": 0,
+        "qy": 0,
+        "qz": 0,
+        "qw": 0
+      },
+      "vector": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "mesh_id": 167181
+    },
+    {
+      "type": "Curtain Roof Grids",
+      "info": {
+        "Category": "Curtain Roof Grids",
+        "ElementID": "167183",
+        "Phase Created": "New Construction",
+        "Phase Demolished": "None"
+      },
+      "face_colors": [],
+      "guid": "9e597f98-694d-4ada-b8ef-0e7459e0b930-00028d0f",
+      "rotation": {
+        "qx": 0,
+        "qy": 0,
+        "qz": 0,
+        "qw": 0
+      },
+      "vector": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "mesh_id": 167183
+    },
+    {
+      "type": "Curtain Roof Grids",
+      "info": {
+        "Category": "Curtain Roof Grids",
+        "ElementID": "167185",
+        "Phase Created": "New Construction",
+        "Phase Demolished": "None"
+      },
+      "face_colors": [],
+      "guid": "9e597f98-694d-4ada-b8ef-0e7459e0b930-00028d11",
+      "rotation": {
+        "qx": 0,
+        "qy": 0,
+        "qz": 0,
+        "qw": 0
+      },
+      "vector": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "mesh_id": 167185
+    }
+  ]
+}

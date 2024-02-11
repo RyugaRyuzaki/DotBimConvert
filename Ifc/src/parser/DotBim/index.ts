@@ -181,6 +181,15 @@ export class DotBim {
             if ( !newCombined || !newCombined.index ) continue
 
             const indices = Array.from( newCombined.index.array )
+            // const pos = newCombined.attributes.position.array
+            // const posItemSize = newCombined.attributes.position.itemSize
+            // const coordinates: number[] = []
+            // for ( let i = 0; i < pos.length; i += posItemSize ) {
+            //     coordinates.push( pos[i] )
+            //     coordinates.push( pos[i + 2] )
+            //     coordinates.push( pos[i + 1] )
+            // }
+
             const coordinates = Array.from( newCombined.attributes.position.array )
             const mesh_id = Number( expressID )
             const mesh = {

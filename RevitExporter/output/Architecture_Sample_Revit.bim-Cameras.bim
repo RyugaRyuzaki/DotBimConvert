@@ -1,0 +1,293 @@
+{
+  "schema_version": "1.0.0",
+  "info": {
+    "Description": "",
+    "Author": "https://github.com/RyugaRyuzaki",
+    "OriginAuthor": "https://github.com/paireks",
+    "Category": "Cameras"
+  },
+  "meshes": [
+    {
+      "mesh_id": 140081,
+      "coordinates": [],
+      "indices": []
+    },
+    {
+      "mesh_id": 177014,
+      "coordinates": [],
+      "indices": []
+    },
+    {
+      "mesh_id": 228871,
+      "coordinates": [],
+      "indices": []
+    },
+    {
+      "mesh_id": 233078,
+      "coordinates": [],
+      "indices": []
+    },
+    {
+      "mesh_id": 249631,
+      "coordinates": [],
+      "indices": []
+    },
+    {
+      "mesh_id": 249640,
+      "coordinates": [],
+      "indices": []
+    }
+  ],
+  "elements": [
+    {
+      "type": "Cameras",
+      "info": {
+        "Category": "Cameras",
+        "ElementID": "140081",
+        "View Name": "Building Courtyard",
+        "Dependency": "Independent",
+        "Detail Level": "Medium",
+        "Parts Visibility": "Show Original",
+        "Crop View": "Yes",
+        "Crop Region Visible": "Yes",
+        "Far Clip Active": "Yes",
+        "Far Clip Offset": "186316",
+        "Phase Filter": "Show All",
+        "Phase": "New Construction",
+        "Scope Box": "None",
+        "Discipline": "Architectural",
+        "Default Analysis Display Style": "None",
+        "Locked Orientation": "No",
+        "Projection Mode": "Perspective",
+        "Eye Elevation": "1750",
+        "Target Elevation": "1750",
+        "Camera Position": "Explicit",
+        "Section Box": "No",
+        "None": "-1",
+        "Sun Path": "No"
+      },
+      "face_colors": [],
+      "guid": "6949fe39-3e9a-4d4d-b7fe-71339c615138-00022331",
+      "rotation": {
+        "qx": 0,
+        "qy": 0,
+        "qz": 0,
+        "qw": 0
+      },
+      "vector": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "mesh_id": 140081
+    },
+    {
+      "type": "Cameras",
+      "info": {
+        "Category": "Cameras",
+        "ElementID": "177014",
+        "View Name": "Balcony View",
+        "Dependency": "Independent",
+        "Detail Level": "Medium",
+        "Parts Visibility": "Show Original",
+        "Crop View": "Yes",
+        "Crop Region Visible": "Yes",
+        "Far Clip Active": "Yes",
+        "Far Clip Offset": "15557",
+        "Phase Filter": "Show All",
+        "Phase": "New Construction",
+        "Scope Box": "None",
+        "Discipline": "Architectural",
+        "Default Analysis Display Style": "None",
+        "Locked Orientation": "No",
+        "Projection Mode": "Perspective",
+        "Eye Elevation": "5550",
+        "Target Elevation": "5550",
+        "Camera Position": "Explicit",
+        "Section Box": "No",
+        "None": "-1",
+        "Sun Path": "No"
+      },
+      "face_colors": [],
+      "guid": "2d18db1a-a29c-49c0-9218-7a26f89f546c-0002b376",
+      "rotation": {
+        "qx": 0,
+        "qy": 0,
+        "qz": 0,
+        "qw": 0
+      },
+      "vector": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "mesh_id": 177014
+    },
+    {
+      "type": "Cameras",
+      "info": {
+        "Category": "Cameras",
+        "ElementID": "228871",
+        "View Name": "From Parking Area",
+        "Dependency": "Independent",
+        "Detail Level": "Medium",
+        "Parts Visibility": "Show Original",
+        "Crop View": "Yes",
+        "Crop Region Visible": "Yes",
+        "Far Clip Active": "Yes",
+        "Far Clip Offset": "130468",
+        "Phase Filter": "Show All",
+        "Phase": "New Construction",
+        "Scope Box": "None",
+        "Discipline": "Architectural",
+        "Default Analysis Display Style": "None",
+        "Locked Orientation": "No",
+        "Projection Mode": "Perspective",
+        "Eye Elevation": "1750",
+        "Target Elevation": "1750",
+        "Camera Position": "Explicit",
+        "Section Box": "No",
+        "None": "-1",
+        "Sun Path": "No"
+      },
+      "face_colors": [],
+      "guid": "f912f4fb-2fd6-423a-8f6a-19f3c01fd1d7-00037e07",
+      "rotation": {
+        "qx": 0,
+        "qy": 0,
+        "qz": 0,
+        "qw": 0
+      },
+      "vector": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "mesh_id": 228871
+    },
+    {
+      "type": "Cameras",
+      "info": {
+        "Category": "Cameras",
+        "ElementID": "233078",
+        "View Name": "03 - Floor Public - Day Rendering",
+        "Dependency": "Independent",
+        "Detail Level": "Medium",
+        "Parts Visibility": "Show Original",
+        "Crop View": "Yes",
+        "Crop Region Visible": "Yes",
+        "Far Clip Active": "Yes",
+        "Far Clip Offset": "40114",
+        "Phase Filter": "Show All",
+        "Phase": "New Construction",
+        "Scope Box": "None",
+        "Discipline": "Architectural",
+        "Default Analysis Display Style": "None",
+        "Locked Orientation": "No",
+        "Projection Mode": "Perspective",
+        "Eye Elevation": "9350",
+        "Target Elevation": "9350",
+        "Camera Position": "Explicit",
+        "Section Box": "Yes",
+        "None": "-1",
+        "Sun Path": "No"
+      },
+      "face_colors": [],
+      "guid": "5adb2457-c5f4-4c3d-bc82-abc28b7e3fb7-00038e76",
+      "rotation": {
+        "qx": 0,
+        "qy": 0,
+        "qz": 0,
+        "qw": 0
+      },
+      "vector": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "mesh_id": 233078
+    },
+    {
+      "type": "Cameras",
+      "info": {
+        "Category": "Cameras",
+        "ElementID": "249631",
+        "View Name": "03 - Floor Public - Night Rendering",
+        "Dependency": "Independent",
+        "Detail Level": "Medium",
+        "Parts Visibility": "Show Original",
+        "Crop View": "Yes",
+        "Crop Region Visible": "Yes",
+        "Far Clip Active": "Yes",
+        "Far Clip Offset": "40114",
+        "Phase Filter": "Show All",
+        "Phase": "New Construction",
+        "Scope Box": "None",
+        "Discipline": "Architectural",
+        "Default Analysis Display Style": "None",
+        "Locked Orientation": "No",
+        "Projection Mode": "Perspective",
+        "Eye Elevation": "9350",
+        "Target Elevation": "9350",
+        "Camera Position": "Explicit",
+        "Section Box": "Yes",
+        "None": "-1",
+        "Sun Path": "No"
+      },
+      "face_colors": [],
+      "guid": "2e9ef463-3346-4186-9c82-ecf92a4910c4-0003cf1f",
+      "rotation": {
+        "qx": 0,
+        "qy": 0,
+        "qz": 0,
+        "qw": 0
+      },
+      "vector": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "mesh_id": 249631
+    },
+    {
+      "type": "Cameras",
+      "info": {
+        "Category": "Cameras",
+        "ElementID": "249640",
+        "View Name": "Fly into Building",
+        "Dependency": "Independent",
+        "Detail Level": "Medium",
+        "Parts Visibility": "Show Original",
+        "Crop View": "Yes",
+        "Crop Region Visible": "Yes",
+        "Far Clip Active": "No",
+        "Far Clip Offset": "304800",
+        "Phase Filter": "Show All",
+        "Phase": "New Construction",
+        "Scope Box": "None",
+        "Discipline": "Architectural",
+        "Default Analysis Display Style": "None",
+        "Locked Orientation": "No",
+        "Projection Mode": "Perspective",
+        "Camera Position": "Explicit",
+        "Section Box": "No",
+        "None": "-1",
+        "Sun Path": "No"
+      },
+      "face_colors": [],
+      "guid": "aaff987a-c304-4c61-b2b2-b305c8b0ab33-0003cf28",
+      "rotation": {
+        "qx": 0,
+        "qy": 0,
+        "qz": 0,
+        "qw": 0
+      },
+      "vector": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "mesh_id": 249640
+    }
+  ]
+}
