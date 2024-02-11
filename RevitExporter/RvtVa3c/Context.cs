@@ -700,12 +700,12 @@ namespace RvtVa3c
             if (va3CGeometry.data.attributes.position.array == null || va3CGeometry.data.attributes.position.array.Count == 0) return false;
             return true;
         }
-        private DotBim.DotBimMeshes MergeMesh(List<Va3cObject> children,int ElementID, List<double> face_colors)
+        private DotBim.DotBimMeshes MergeMesh(List<Va3cObject> children,int ElementID, List<int> face_colors)
         {
 
             DotBim.DotBimMeshes mesh= new DotBim.DotBimMeshes();
-             List<double> coordinates = new List<double>();
-             List<int> indices = new List<int>();
+            List<double> coordinates = new List<double>();
+            List<int> indices = new List<int>();
             int index = 0;
             for (int i = 0; i < children.Count; i++)
             {
@@ -724,8 +724,8 @@ namespace RvtVa3c
                 for (int j = 0; j < array.Count; j+=itemSize)
                 {
                     coordinates.Add(array[j]);
+                    coordinates.Add(-array[j+2]);
                     coordinates.Add(array[j+1]);
-                    coordinates.Add(array[j+2]);
                     face_colors.Add(dotBimColor.r);
                     face_colors.Add(dotBimColor.g);
                     face_colors.Add(dotBimColor.b);
@@ -734,6 +734,7 @@ namespace RvtVa3c
                     index++;
                 }
             }
+            if(coordinates.Count==0||indices.Count==0) return null;
             mesh.mesh_id = ElementID;
             mesh.coordinates = coordinates;
             mesh.indices = indices;
@@ -751,7 +752,7 @@ namespace RvtVa3c
                 string Category = element.userData["Category"];
                 string ElementID = element.userData["ElementID"];
                 if(Category==null||ElementID==null) continue;
-                List<double> face_colors = new List<double>();
+                List<int> face_colors = new List<int>();
 
                 if (!categories.ContainsKey(Category))
                 {
@@ -784,6 +785,7 @@ namespace RvtVa3c
             Dictionary<string, DotBimCategory> keyValuePairs = GetDotBimCategory();
             foreach (var kvp in keyValuePairs)
             {
+                if (kvp.Value.meshes.Count == 0) continue;
                 DotBim dotBim = new DotBim();
                 dotBim.info = GetDefaultInfo(kvp.Key);
                 dotBim.meshes= kvp.Value.meshes;

@@ -77,7 +77,7 @@ namespace RvtVa3c
             [DataMember]
             public DotBimColor color { get; set; }
             [DataMember]
-            public List<double> face_colors { get; set; }
+            public List<int> face_colors { get; set; }
             [DataMember]
             public string guid { get; set; }
             [DataMember]

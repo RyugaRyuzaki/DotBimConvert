@@ -4,8 +4,8 @@
     "description": "",
     "main": "index.js",
     "scripts": {
-        "test": "node dist/index.js ./input/02.ifc ./output",
-        "test:all": "node dist/index.js ./input/02.ifc ./output all",
+        "test": "node dist/index.js ./input/01.ifc ./output",
+        "test:all": "node dist/index.js ./input/01.ifc ./output all",
         "dev": "nodemon ",
         "build": "npx tsc -p . & rollup -c "
     },
