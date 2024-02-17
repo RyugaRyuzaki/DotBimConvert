@@ -9,7 +9,7 @@
     - Test  categories : npm run test    
 # Convert .ifc to .bim
     - Using command: make sure build before run
-        - node dist/index.ts <input-path> <output-dir> <option:null || all>
+        - node dist/index.js <input-path> <output-dir> <option:null || all>
         * option all : 
             - 1 : <output-dir>/<filename>/<filename>.bim
             - 2 : <output-dir>/<filename>/<filename>.frag.bim

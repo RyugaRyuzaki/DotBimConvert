@@ -44,6 +44,10 @@
     <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="dotbim, Version=1.1.2.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\dotbim.1.1.2\lib\net40\dotbim.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="Google.FlatBuffers, Version=1.0.0.0, Culture=neutral, PublicKeyToken=a5f9b243cdbcd871, processorArchitecture=MSIL">
       <HintPath>..\packages\Google.FlatBuffers.23.5.26\lib\net46\Google.FlatBuffers.dll</HintPath>
     </Reference>
