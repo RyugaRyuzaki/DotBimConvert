@@ -74,7 +74,9 @@
     <Reference Include="System.Xml.Linq" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="App.cs" />
+    <Resource Include="App.cs">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
     <Compile Include="CategoriesCmd.cs" />
     <Compile Include="Container.cs" />
     <Compile Include="Context.cs" />

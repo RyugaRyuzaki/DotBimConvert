@@ -21,7 +21,7 @@ namespace RvtVa3c
 
             RibbonPanel ribbonPanel = app.CreateRibbonPanel(tabName, "DotBim Export");
 
-            AddPushButton(ribbonPanel, "Export to .bim", "ExportCmd");
+            AddPushButton(ribbonPanel, "Export to .bim", "CategoriesCmd");
 
             return Result.Succeeded;
         }
@@ -35,7 +35,7 @@ namespace RvtVa3c
 
             string imagePath = Path.Combine(assetsFolderPath, "DotBim.png");
 
-            PushButtonData pushButtonData = new PushButtonData(itemName, itemName, assemblyPath, $"Revit_Transform.{className}");
+            PushButtonData pushButtonData = new PushButtonData(itemName, itemName, assemblyPath, $"RvtVa3c.{className}");
 
             PushButton pushButton = ribbonPanel.AddItem(pushButtonData) as PushButton;
 
