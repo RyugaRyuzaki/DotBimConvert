@@ -332,7 +332,7 @@ namespace RvtVa3c
                 normal.itemSize = 3;
                 normal.type = "Float32Array";
                 normal.array = new List<double>();
-            
+
                 var index = new Index();
                 index.itemSize = 1;
                 index.type = "Uint16Array";
@@ -354,7 +354,7 @@ namespace RvtVa3c
                 _vertices.Add(uidMaterial, new VertexLookupInt());
             }
         }
-        public List<Category> Categories { get;set; }
+        public List<Category> Categories { get; set; }
         public Context(Document document, string fileName, List<Category> categories)
         {
             _doc = document;
@@ -635,7 +635,7 @@ namespace RvtVa3c
 
         public RenderNodeAction OnInstanceBegin(InstanceNode node)
         {
-            
+
 
             _transformationStack.Push(CurrentTransform.Multiply(
               node.GetTransform()));
@@ -646,13 +646,13 @@ namespace RvtVa3c
 
         public void OnInstanceEnd(InstanceNode node)
         {
-         
+
             _transformationStack.Pop();
         }
 
         public RenderNodeAction OnLinkBegin(LinkNode node)
         {
-            
+
             return RenderNodeAction.Proceed;
         }
 
@@ -698,44 +698,49 @@ namespace RvtVa3c
                 for (int j = 0; j < array.Count; j += itemSize)
                 {
                     coordinates.Add(array[j]);
-                    coordinates.Add(array[j + 2]);
+                    coordinates.Add(-array[j + 2]);
                     coordinates.Add(array[j + 1]);
-                    face_colors.Add(dotBimColor.R);
-                    face_colors.Add(dotBimColor.G);
-                    face_colors.Add(dotBimColor.B);
-                    face_colors.Add(dotBimColor.A);
+                  
+                    if(j%9==0)
+                    {
+                        face_colors.Add(dotBimColor.R);
+                        face_colors.Add(dotBimColor.G);
+                        face_colors.Add(dotBimColor.B);
+                        face_colors.Add(dotBimColor.A);
+                    }
+
                     indices.Add(index);
                     index++;
                 }
             }
             return new DB.Mesh { Coordinates = coordinates, Indices = indices, MeshId = ElementID };
         }
-        private Dictionary<string,(List<DB.Mesh>, List<DB.Element>)> GetDotBimCategory()
+        private Dictionary<string, (List<DB.Mesh>, List<DB.Element>)> GetDotBimCategory()
         {
-            Dictionary<string, (List<DB.Mesh>, List<DB.Element>)> categories =new Dictionary<string, (List<DB.Mesh>, List<DB.Element>)>();
+            Dictionary<string, (List<DB.Mesh>, List<DB.Element>)> categories = new Dictionary<string, (List<DB.Mesh>, List<DB.Element>)>();
             List<Va3cObject> list = _objects.Values.ToList();
-            List<string> cats= Categories.Select(c=>c.BuiltInCategory.ToString()).ToList();
-           
+            List<string> cats = Categories.Select(c => c.BuiltInCategory.ToString()).ToList();
+
             for (int i = 0; i < list.Count; i++)
             {
 
-                Va3cObject  element = list[i];
+                Va3cObject element = list[i];
                 if (element.userData == null) continue;
                 string BuiltInCategory = element.userData["BuiltInCategory"];
                 string Category = element.userData["Category"];
                 string ElementID = element.userData["ElementID"];
                 // ignore if Category is null and ElementID
-                if (Category==null||ElementID==null|| BuiltInCategory==null) continue;
+                if (Category == null || ElementID == null || BuiltInCategory == null) continue;
                 if (!cats.Contains(BuiltInCategory)) continue;
                 List<int> face_colors = new List<int>();
 
                 if (!categories.ContainsKey(Category)) categories.Add(Category, (new List<DB.Mesh>(), new List<DB.Element>()));
-               
+
                 List<DB.Mesh> meshes = categories[Category].Item1;
                 List<DB.Element> elements = categories[Category].Item2;
-                if (meshes ==null || elements==null) continue;
+                if (meshes == null || elements == null) continue;
                 DB.Mesh mesh = MergeMesh(element.children, int.Parse(ElementID), face_colors);
-                if (mesh ==null) continue;
+                if (mesh == null) continue;
                 categories[Category].Item1.Add(mesh);
                 DB.Element dotBimElement = new DB.Element
                 {
@@ -743,26 +748,31 @@ namespace RvtVa3c
                     Info = element.userData,
                     Vector = new DB.Vector
                     {
-                        X = 0, Y = 0, Z = 0
+                        X = 0,
+                        Y = 0,
+                        Z = 0
                     },
                     Rotation = new DB.Rotation
                     {
-                        Qw = 1,Qx=0,Qy=0,Qz=0
+                        Qw = 1,
+                        Qx = 0,
+                        Qy = 0,
+                        Qz = 0
                     },
                     Guid = System.Guid.NewGuid().ToString(),
                     MeshId = int.Parse(ElementID),
                     FaceColors = face_colors,
-                
+
                 };
-                
+
                 categories[Category].Item2.Add(dotBimElement);
-             }
+            }
 
             return categories;
-        }   
-      
-       
-         
-       
+        }
+
+
+
+
     }
 }
