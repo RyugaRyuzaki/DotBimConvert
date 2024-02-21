@@ -191,11 +191,19 @@ namespace RvtVa3c
             Dictionary<string, string> a
               = new Dictionary<string, string>(
                 parameters.Count);
-
-            if (e.Category.Name != null)
+            if (e.Category != null)
             {
-                a.Add("Category", e.Category.Name);
-            }
+                if (e.Category.Name != null)
+                {
+                    a.Add("Category", e.Category.Name);
+                } 
+                if (e.Category.CategoryType!=CategoryType.Invalid)
+                {
+                    a.Add("BuiltInCategory", e.Category.BuiltInCategory.ToString());
+                }
+               
+            } 
+            
             a.Add("ElementID", e.Id.IntegerValue.ToString());
             string key;
             string val;

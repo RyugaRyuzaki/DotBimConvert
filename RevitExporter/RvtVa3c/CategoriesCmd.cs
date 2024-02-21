@@ -6,6 +6,9 @@ using Autodesk.Revit.DB;
 using Autodesk.Revit.UI;
 using SaveFileDialog = System.Windows.Forms.SaveFileDialog;
 using DialogResult = System.Windows.Forms.DialogResult;
+using RvtVa3c.ViewModel;
+using System.Collections.Generic;
+using System.Linq;
 #endregion // Namespaces
 
 namespace RvtVa3c
@@ -43,7 +46,7 @@ namespace RvtVa3c
             return null;
         }
 
-        public void ExportView3D(View3D view3d, string filename)
+        public void ExportView3D(View3D view3d, string filename, List<Category> categories)
         {
             AppDomain.CurrentDomain.AssemblyResolve
               += CurrentDomain_AssemblyResolve;
@@ -52,63 +55,20 @@ namespace RvtVa3c
 
 
             Context context
-              = new Context(doc, filename);
+              = new Context(doc, filename, categories);
 
             CustomExporter exporter = new CustomExporter(
               doc, context);
 
-            //// Note: Excluding faces just suppresses the 
-            //// OnFaceBegin calls, not the actual processing 
-            //// of face tessellation. Meshes of the faces 
-            //// will still be received by the context.
-            ////
 
             exporter.ShouldStopOnError = false;
 
             exporter.Export(view3d);
         }
 
-        #region SelectFile
-        /// <summary>
-        /// Store the last user selected output folder
-        /// in the current editing session.
-        /// </summary>
-        static string _output_folder_path = null;
+      
 
-        /// <summary>
-        /// Return true is user selects and confirms
-        /// output file name and folder.
-        /// </summary>
-        static bool SelectFile(
-          ref string folder_path,
-          ref string filename)
-        {
-            SaveFileDialog dlg = new SaveFileDialog();
-
-            dlg.Title = "Select JSON Output File";
-            dlg.Filter = "BIM files|*.bim";
-
-            if (null != folder_path
-              && 0 < folder_path.Length)
-            {
-                dlg.InitialDirectory = folder_path;
-            }
-
-            dlg.FileName = filename;
-
-            bool rc = DialogResult.OK == dlg.ShowDialog();
-
-            if (rc)
-            {
-                filename = Path.Combine(dlg.InitialDirectory,
-                  dlg.FileName);
-
-                folder_path = Path.GetDirectoryName(
-                  filename);
-            }
-            return rc;
-        }
-        #endregion // SelectFile
+        
 
         public Result Execute(
           ExternalCommandData commandData,
@@ -132,44 +92,33 @@ namespace RvtVa3c
 
                 return Result.Failed;
             }
-
-            // Prompt for output filename selection.
-
-            string filename = doc.PathName;
-
-            if (0 == filename.Length)
+            ExportViewModel viewModel = new ExportViewModel( doc);
+            ExportWindow window
+                 = new ExportWindow(viewModel);
+            bool? showDialog = window.ShowDialog();
+            if (showDialog == null || showDialog == false)
             {
-                filename = doc.Title;
-            }
-
-            if (null == _output_folder_path)
-            {
-                // Sometimes the command fails if the file is 
-                // detached from central and not saved locally
-
-                try
+                if (viewModel.IsOK)
                 {
-                    _output_folder_path = Path.GetDirectoryName(
-                      filename);
-                }
-                catch
-                {
-                    TaskDialog.Show("Folder not found",
-                      "Please save the file and run the command again.");
-                    return Result.Failed;
-                }
-            }
-            filename = Path.GetFileNameWithoutExtension(filename);
+                    try
+                    {
+                        List<Category> categories = viewModel.AllCategories.Where(c => c.Checked).Select(c => c.Category).ToList();
+                        ExportView3D(view, viewModel.OutputFile, categories);
+                        return Result.Succeeded;
+                    }
+                    catch (Exception e)
+                    {
 
-            if (!SelectFile(ref _output_folder_path,
-              ref filename))
-            {
+                        TaskDialog.Show("Error",
+                            e.Message);
+                        return Result.Failed;
+                    }
+                }
                 return Result.Cancelled;
             }
 
 
-            ExportView3D(doc.ActiveView as View3D,
-              filename);
+
             return Result.Succeeded;
         }
     }

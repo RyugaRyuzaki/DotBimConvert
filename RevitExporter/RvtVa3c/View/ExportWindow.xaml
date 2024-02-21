@@ -1,0 +1,124 @@
+<Window x:Name="MainWindow" x:Class="RvtVa3c.ExportWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d"
+        Title="Revit Transform" 
+        ResizeMode="NoResize" 
+        ShowInTaskbar="true" 
+        WindowStartupLocation="CenterScreen"
+        Height="400" Width="400"
+        Topmost="false"
+        FontSize="11"
+        FontFamily="Tahoma"
+        Background="#f0ebeb"
+        WindowStyle="None"
+        AllowsTransparency="True"
+     
+    >
+
+    <Window.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="pack://application:,,,/RvtVa3c;component/Resource/Styles.xaml"></ResourceDictionary>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Window.Resources>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="40"></RowDefinition>
+            <RowDefinition Height="32"></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition Height="32"></RowDefinition>
+
+        </Grid.RowDefinitions>
+        <Grid Grid.Row="0">
+            <DockPanel LastChildFill="False" Background="#e0dfda">
+                <Button 
+                    Style="{StaticResource ButtonStyleIcon}" 
+                    DockPanel.Dock="Left"
+                    Margin="0"
+                    Command="{Binding OpenWebCommand}" 
+                    >
+                    <Image Source="pack://application:,,,/RvtVa3c;component/Assets/DotBim.png"></Image>
+                </Button>
+                <Button Margin="2" Style="{StaticResource ButtonStyleIcon}" DockPanel.Dock="Right" Width="40"  
+                Command="{Binding CloseWindowCommand }"  CommandParameter="{Binding ElementName=MainWindow}"
+                >
+                    <Grid>
+                        <Ellipse Width="28" Height="28" Stroke="Black" StrokeThickness="3"></Ellipse>
+                        <Line Stroke="Black" StrokeThickness="3" X1="14" X2="14" Y1="-4" Y2="14"></Line>
+                    </Grid>
+                </Button>
+            </DockPanel>
+        </Grid>
+
+        <Grid Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="80"></ColumnDefinition>
+                <ColumnDefinition Width="6*"></ColumnDefinition>
+                <ColumnDefinition Width="100"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+
+            <TextBlock Style="{StaticResource TextBlockDefault}" Grid.Column="0"
+                       >
+                Output File:
+            </TextBlock>
+            <TextBox Style="{StaticResource TextBoxStyle}" Grid.Column="1"
+                     Text="{Binding OutputFile, UpdateSourceTrigger=PropertyChanged,Mode=TwoWay}"
+                     >
+            </TextBox>
+            <Button Style="{StaticResource ButtonStyle}" Padding="0" Width="80" Grid.Column="2" 
+                    Content="Browse..."
+                    Command="{Binding BrowseFileCommand}"   
+                    >
+
+            </Button>
+        </Grid>
+
+        <Grid Grid.Row="2">
+           
+
+            <ScrollViewer
+                VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Hidden">
+                <ListView  
+                ItemsSource="{Binding AllCategories,UpdateSourceTrigger=PropertyChanged}"
+                 SelectedItem="{Binding SelectedCategory,UpdateSourceTrigger=PropertyChanged}"
+                >
+                    <ListView.View>
+                        <GridView>
+                            <GridViewColumn >
+                                <GridViewColumn.Header >
+                                    <CheckBox Style="{StaticResource CheckBoxStyle}" 
+                                              IsChecked="{Binding CheckAllCategories,UpdateSourceTrigger=PropertyChanged,Mode=TwoWay}" 
+                                              />
+                                </GridViewColumn.Header>
+                                <GridViewColumn.CellTemplate>
+                                    <DataTemplate>
+                                        <CheckBox Style="{StaticResource CheckBoxStyle}" 
+                                                  IsChecked="{Binding Checked, UpdateSourceTrigger=PropertyChanged,Mode=TwoWay}"
+                                                  />
+                                    </DataTemplate>
+                                </GridViewColumn.CellTemplate>
+                            </GridViewColumn>
+                            <GridViewColumn Header="Category Name"   DisplayMemberBinding="{Binding Category.Name}"></GridViewColumn>
+                            <GridViewColumn Header="Count"   DisplayMemberBinding="{Binding Elements.Count}"></GridViewColumn>
+
+                        </GridView>
+                    </ListView.View>
+                </ListView>
+            </ScrollViewer>
+           
+        </Grid>
+        <DockPanel Grid.Row="3" LastChildFill="False">
+           
+            <Button Style="{StaticResource ButtonStyle}" DockPanel.Dock="Right" Content="Export .Bim"  Width="80"
+              Background="OrangeRed"
+              Command="{Binding ExportCommand}"   CommandParameter="{Binding ElementName=MainWindow}"
+             ></Button>
+            
+        </DockPanel>
+    </Grid>
+
+</Window>

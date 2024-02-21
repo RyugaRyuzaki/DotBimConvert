@@ -2,8 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Runtime.Serialization;
-using System.Text;
-using System.Threading.Tasks;
+using dotbim;
 
 namespace RvtVa3c
 {
@@ -27,7 +26,7 @@ namespace RvtVa3c
             [DataMember]
             public double opacity { get; set; } 
             [DataMember]
-            public DotBim.DotBimColor dotBimColor { get; set; } // 1
+            public Color dotBimColor { get; set; } // 1
 
         }
         public class Va3cTexture
