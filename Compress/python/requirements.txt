@@ -1,0 +1,2 @@
+dotbimpy==0.1.0
+flatbuffers==23.5.26

@@ -26,14 +26,14 @@ namespace RvtVa3c.ViewModel
         private static readonly CategoryType CategoryModelID = CategoryType.Model;
 
         public Document Doc { get; }
-        
+
         private string _OutputFile;
 
         public string OutputFile
         {
             get { return _OutputFile; }
             set { _OutputFile = value; OnPropertyChanged(); }
-        } 
+        }
         private string _OutputFolder;
 
         public string OutputFolder
@@ -48,7 +48,8 @@ namespace RvtVa3c.ViewModel
         public bool CheckAllCategories
         {
             get { return _CheckAllCategories; }
-            set {
+            set
+            {
                 _CheckAllCategories = value;
                 if (AllCategories == null && AllCategories.Count == 0) CanExportAll = false;
                 if (AllCategories != null && AllCategories.Count > 0)
@@ -69,7 +70,9 @@ namespace RvtVa3c.ViewModel
         public ObservableCollection<CategoryModel> AllCategories
         {
             get { return _AllCategories; }
-            set { _AllCategories = value; 
+            set
+            {
+                _AllCategories = value;
                 OnPropertyChanged();
             }
         }
@@ -95,6 +98,13 @@ namespace RvtVa3c.ViewModel
             set { _CanExportAll = value; OnPropertyChanged(); }
         }
 
+        private bool _MergeFile = true;
+
+        public bool MergeFile
+        {
+            get { return _MergeFile; }
+            set { _MergeFile = value; OnPropertyChanged(); }
+        }
 
 
 
@@ -109,7 +119,7 @@ namespace RvtVa3c.ViewModel
         public ICommand CloseWindowCommand { get; set; }
         public ICommand BrowseFileCommand { get; set; }
         public ICommand ExportCommand { get; set; }
-        public ExportViewModel( Document doc)
+        public ExportViewModel(Document doc)
         {
             Doc = doc;
 
@@ -126,7 +136,7 @@ namespace RvtVa3c.ViewModel
             {
                 Process.Start(new ProcessStartInfo(navigateUri));
 
-            }); 
+            });
             CloseWindowCommand = new RelayCommand<ExportWindow>((p) => { return true; }, (p) =>
 
             {
@@ -135,16 +145,20 @@ namespace RvtVa3c.ViewModel
 
             });
 
-            
+
             ExportCommand = new RelayCommand<ExportWindow>((p) => { return true; }, (p) =>
             {
                 List<CategoryModel> list = AllCategories.Where(c => c.Checked).ToList();
-                if(list.Count ==0) {
-                    TaskDialog.Show("Error", "Emptry List Selct categories!");
-                    return;
+                if (list.Count == 0)
+                {
+                    TaskDialog.Show("Error", "None Selected Category!");
                 }
-                IsOK = true;
-                p.DialogResult = false;
+                else
+                {
+
+                    IsOK = true;
+                    p.DialogResult = false;
+                }
             });
         }
 
@@ -172,14 +186,14 @@ namespace RvtVa3c.ViewModel
                 }
             }
 
-            filename = Path.GetFileNameWithoutExtension(filename) ;
+            filename = Path.GetFileNameWithoutExtension(filename);
 
             filename = Path.Combine(OutputFolder,
               filename);
             return filename;
         }
 
-      
+
 
         private void BrowseFile()
         {
@@ -231,9 +245,9 @@ namespace RvtVa3c.ViewModel
                 }
             }
             categories1 = new List<Category>(categories1.Distinct(new DistinctCategory()));
-            return new ObservableCollection<CategoryModel>(categories1.Where(c => !BuiltInCategoryID.Ignores.Contains(c.BuiltInCategory)).OrderBy(x => x.Name).Select(c => new CategoryModel(Doc,c) ).ToList());
+            return new ObservableCollection<CategoryModel>(categories1.Where(c => !BuiltInCategoryID.Ignores.Contains(c.BuiltInCategory)).OrderBy(x => x.Name).Select(c => new CategoryModel(Doc, c)).ToList());
         }
 
     }
-    
+
 }

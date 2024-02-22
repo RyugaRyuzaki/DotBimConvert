@@ -1,0 +1,213 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>dotbim</name>
+    </assembly>
+    <members>
+        <member name="T:dotbim.Color">
+            <summary>
+            Represents a color using red, green, blue, and alpha (transparency) values.
+            </summary>
+        </member>
+        <member name="P:dotbim.Color.R">
+            <summary>
+            The red component of the color.
+            </summary>
+            <exception cref="T:System.ArgumentException">
+            Thrown if the value is not between 0 and 255.
+            </exception>
+        </member>
+        <member name="P:dotbim.Color.G">
+            <summary>
+            The green component of the color.
+            </summary>
+            <exception cref="T:System.ArgumentException">
+            Thrown if the value is not between 0 and 255.
+            </exception>
+        </member>
+        <member name="P:dotbim.Color.B">
+            <summary>
+            The blue component of the color.
+            </summary>
+            <exception cref="T:System.ArgumentException">
+            Thrown if the value is not between 0 and 255.
+            </exception>
+        </member>
+        <member name="P:dotbim.Color.A">
+            <summary>
+            The alpha (transparency) component of the color.
+            </summary>
+            <exception cref="T:System.ArgumentException">
+            Thrown if the value is not between 0 and 255.
+            </exception>
+        </member>
+        <member name="T:dotbim.Element">
+            <summary>
+            Represents an element in a BIM file.
+            </summary>
+        </member>
+        <member name="P:dotbim.Element.MeshId">
+            <summary>
+            The identifier of the mesh associated with the element.
+            </summary>
+        </member>
+        <member name="P:dotbim.Element.Vector">
+            <summary>
+            The position of the element.
+            </summary>
+        </member>
+        <member name="P:dotbim.Element.Rotation">
+            <summary>
+            The rotation of the element.
+            </summary>
+        </member>
+        <member name="P:dotbim.Element.Guid">
+            <summary>
+            The globally unique identifier for the element.
+            </summary>
+            <exception cref="T:System.ArgumentException">
+            Thrown if the value is not a valid globally unique identifier.
+            </exception>
+        </member>
+        <member name="P:dotbim.Element.Type">
+            <summary>
+            The type of the element.
+            </summary>
+        </member>
+        <member name="P:dotbim.Element.Color">
+            <summary>
+            The color of the element.
+            </summary>
+        </member>
+        <member name="P:dotbim.Element.FaceColors">
+            <summary>
+            The list of integers, that determine face colors of a mesh.
+            They should be organized like this: [r1, g1, b1, a1, r2, g2, b2, a2, r3, g3, b3, a3, ... rn, gn, bn, an]
+            E.g. list like: [255, 0, 0, 255, 135, 206, 235, 255, 255, 255, 255, 255]
+            means first triangle should be colored as red (255,0,0,255),
+            second as skyblue (135,206,235,255),
+            third as white (255,255,255,255).
+            </summary>
+        </member>
+        <member name="P:dotbim.Element.Info">
+            <summary>
+            Additional information about the element.
+            </summary>
+        </member>
+        <member name="T:dotbim.File">
+            <summary>
+            Represents a file in the BIM format.
+            </summary>
+        </member>
+        <member name="M:dotbim.File.Save(System.String,System.Boolean)">
+            <summary>
+            Saves the file to the specified path.
+            </summary>
+            <param name="path">The path to save the file to.</param>
+            <param name="format">True = Formatting.Indented will be used for json, false = Formatting.None will be used.
+            If you want a file to be more optimized - use false there.
+            If you want to make it more human readable - use true there.</param>
+            <exception cref="T:System.ArgumentException">
+            Thrown if the path does not end with ".bim".
+            </exception>
+        </member>
+        <member name="M:dotbim.File.Read(System.String)">
+            <summary>
+            Reads a file from the specified path.
+            </summary>
+            <param name="path">The path of the file to read.</param>
+            <returns>A File object representing the contents of the file.</returns>
+            <exception cref="T:System.ArgumentException">
+            Thrown if the path does not end with ".bim".
+            </exception>
+        </member>
+        <member name="P:dotbim.File.SchemaVersion">
+            <summary>
+            The schema version of the BIM file.
+            </summary>
+        </member>
+        <member name="P:dotbim.File.Meshes">
+            <summary>
+            The list of meshes in the file.
+            </summary>
+        </member>
+        <member name="P:dotbim.File.Elements">
+            <summary>
+            The list of elements in the file.
+            </summary>
+        </member>
+        <member name="P:dotbim.File.Info">
+            <summary>
+            Additional information about the file.
+            </summary>
+        </member>
+        <member name="T:dotbim.Mesh">
+            <summary>
+            Represents a mesh object in three-dimensional space.
+            </summary>
+        </member>
+        <member name="P:dotbim.Mesh.MeshId">
+            <summary>
+            The identifier for the mesh.
+            </summary>
+            <remarks>
+            The value of MeshId should be greater than or equal to 0.
+            </remarks>
+        </member>
+        <member name="P:dotbim.Mesh.Coordinates">
+            <summary>
+            The list of coordinates for the mesh vertices.
+            </summary>
+        </member>
+        <member name="P:dotbim.Mesh.Indices">
+            <summary>
+            The list of indices for the mesh triangles.
+            </summary>
+        </member>
+        <member name="T:dotbim.Rotation">
+            <summary>
+            Represents a rotation in three-dimensional space using a quaternion.
+            </summary>
+        </member>
+        <member name="P:dotbim.Rotation.Qx">
+            <summary>
+            The x-coordinate of the quaternion.
+            </summary>
+        </member>
+        <member name="P:dotbim.Rotation.Qy">
+            <summary>
+            The y-coordinate of the quaternion.
+            </summary>
+        </member>
+        <member name="P:dotbim.Rotation.Qz">
+            <summary>
+            The z-coordinate of the quaternion.
+            </summary>
+        </member>
+        <member name="P:dotbim.Rotation.Qw">
+            <summary>
+            The w-coordinate of the quaternion.
+            </summary>
+        </member>
+        <member name="T:dotbim.Vector">
+            <summary>
+            Represents a three-dimensional vector with double-precision floating-point coordinates.
+            </summary>
+        </member>
+        <member name="P:dotbim.Vector.X">
+            <summary>
+            The x-coordinate of the vector.
+            </summary>
+        </member>
+        <member name="P:dotbim.Vector.Y">
+            <summary>
+            The y-coordinate of the vector.
+            </summary>
+        </member>
+        <member name="P:dotbim.Vector.Z">
+            <summary>
+            The z-coordinate of the vector.
+            </summary>
+        </member>
+    </members>
+</doc>

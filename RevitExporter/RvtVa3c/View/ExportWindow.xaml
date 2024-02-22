@@ -117,7 +117,10 @@
               Background="OrangeRed"
               Command="{Binding ExportCommand}"   CommandParameter="{Binding ElementName=MainWindow}"
              ></Button>
-            
+            <CheckBox Style="{StaticResource CheckBoxStyle}"  DockPanel.Dock="Right" 
+           IsChecked="{Binding MergeFile, UpdateSourceTrigger=PropertyChanged,Mode=TwoWay}"
+                      Content="Merge File"
+           />
         </DockPanel>
     </Grid>
 

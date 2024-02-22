@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Application">
+    <Name>Revit-DotBim Exporter</Name>
+    <Assembly>DotBim/RvtVa3c.dll</Assembly>
+    <FullClassName>RvtVa3c.Startup</FullClassName>
+    <ClientId>29b6fa8c-524f-464c-bb11-8bf11ed63868</ClientId>
+    <VendorId>ryuzaki2005@gmail.com</VendorId>
+    <VendorDescription>Ryuzaki, https://openbimvietnam.com.vn/</VendorDescription>
+  </AddIn>
+</RevitAddIns>

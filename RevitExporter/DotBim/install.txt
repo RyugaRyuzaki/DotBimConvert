@@ -1,0 +1,4 @@
+- 1 : Unzip the DotBim.zip file
+- 2 : copy ./DotBim and DotBim.addin to  C:\ProgramData\Autodesk\Revit\Addins\2023
+- 3 : open Revit and enjoy.
+*Note: only work with Revit 2023

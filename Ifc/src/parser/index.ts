@@ -1,19 +1,14 @@
 import * as fs from 'fs';
 import { IfcLoader } from './IfcLoader';
-import { Serializer } from './DotBim';
 
 const extensionDotBim = '.bim';
-const extensionDotBimFrag = '.frag.bim';
 async function writeFile( outDir: string, fileName: string, schema_version: string, info: any, meshes: any, elements: any ) {
     if ( !fs.existsSync( outDir ) ) fs.mkdirSync( outDir );
     const outputDotBim = `${outDir}/${fileName}${extensionDotBim}`
-    const outputDotBimFrag = `${outDir}/${fileName}${extensionDotBimFrag}`
     const newMeshes = Object.keys( meshes ).map( ( key: string ) => meshes[key] )
     const newElements = Object.keys( elements ).map( ( key: string ) => elements[key] )
     const dotBim = { schema_version, info, meshes: newMeshes, elements: newElements }
     await fs.writeFileSync( outputDotBim, JSON.stringify( dotBim, null, 2 ) )
-    const compress = Serializer.compress( dotBim )
-    await fs.writeFileSync( outputDotBimFrag, compress )
 }
 export async function parserFragToDotBim() {
 

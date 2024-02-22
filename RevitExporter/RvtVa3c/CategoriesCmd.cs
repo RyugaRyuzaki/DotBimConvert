@@ -46,7 +46,7 @@ namespace RvtVa3c
             return null;
         }
 
-        public void ExportView3D(View3D view3d, string filename, List<Category> categories)
+        public void ExportView3D(View3D view3d, string filename, List<Category> categories,bool mergeFile)
         {
             AppDomain.CurrentDomain.AssemblyResolve
               += CurrentDomain_AssemblyResolve;
@@ -55,7 +55,7 @@ namespace RvtVa3c
 
 
             Context context
-              = new Context(doc, filename, categories);
+              = new Context(doc, filename, categories, mergeFile);
 
             CustomExporter exporter = new CustomExporter(
               doc, context);
@@ -103,7 +103,7 @@ namespace RvtVa3c
                     try
                     {
                         List<Category> categories = viewModel.AllCategories.Where(c => c.Checked).Select(c => c.Category).ToList();
-                        ExportView3D(view, viewModel.OutputFile, categories);
+                        ExportView3D(view, viewModel.OutputFile, categories,viewModel.MergeFile);
                         return Result.Succeeded;
                     }
                     catch (Exception e)

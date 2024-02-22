@@ -9,6 +9,7 @@ using static RvtVa3c.Container;
 using DB = dotbim;
 using Autodesk.Revit.UI;
 using RvtVa3c.Model;
+using System.Windows.Controls;
 #endregion // Namespaces
 
 namespace RvtVa3c
@@ -288,11 +289,6 @@ namespace RvtVa3c
                 Va3cMaterial m
                   = new Va3cMaterial();
 
-                //m.metadata = new Va3cVa3cMaterialMetadata();
-                //m.metadata.type = "material";
-                //m.metadata.version = 4.2;
-                //m.metadata.generator = "RvtVa3c 2015.0.0.0";
-
                 m.uuid = uidMaterial;
                 m.name = material.Name;
                 m.color = Utils.ColorToInt(material.Color);
@@ -312,8 +308,6 @@ namespace RvtVa3c
                 CurrentObjectPerMaterial.name = _currentElement.name;
                 CurrentObjectPerMaterial.geometry = uid_per_material;
                 CurrentObjectPerMaterial.material = _currentMaterialUid;
-                CurrentObjectPerMaterial.matrix = new double[] { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1 };
-                CurrentObjectPerMaterial.type = "Mesh";
                 CurrentObjectPerMaterial.uuid = uid_per_material;
             }
 
@@ -328,25 +322,9 @@ namespace RvtVa3c
                 position.itemSize = 3;
                 position.type = "Float32Array";
                 position.array = new List<double>();
-                var normal = new Normal();
-                normal.itemSize = 3;
-                normal.type = "Float32Array";
-                normal.array = new List<double>();
-
-                var index = new Index();
-                index.itemSize = 1;
-                index.type = "Uint16Array";
-                index.array = new List<int>();
 
                 attributes.position = position;
-                attributes.normal = normal;
                 CurrentGeometryPerMaterial.data.attributes = attributes;
-
-                CurrentGeometryPerMaterial.data.visible = true;
-                CurrentGeometryPerMaterial.data.castShadow = true;
-                CurrentGeometryPerMaterial.data.receiveShadow = false;
-                CurrentGeometryPerMaterial.data.doubleSided = true;
-                CurrentGeometryPerMaterial.data.scale = 1.0;
             }
 
             if (!_vertices.ContainsKey(uidMaterial))
@@ -355,11 +333,13 @@ namespace RvtVa3c
             }
         }
         public List<Category> Categories { get; set; }
-        public Context(Document document, string fileName, List<Category> categories)
+        public bool MergeFile { get; set; }
+        public Context(Document document, string fileName, List<Category> categories, bool mergeFile=false)
         {
             _doc = document;
             _fileName = fileName;
             Categories = categories;
+            MergeFile = mergeFile;
         }
 
         public bool Start()
@@ -367,11 +347,7 @@ namespace RvtVa3c
             _materials = new Dictionary<string, Va3cMaterial>();
             _geometries = new Dictionary<string, Va3cGeometry>();
             _objects = new Dictionary<string, Va3cObject>();
-
             _transformationStack.Push(Transform.Identity);
-
-
-
             return true;
         }
 
@@ -379,6 +355,9 @@ namespace RvtVa3c
         {
 
             Dictionary<string, (List<DB.Mesh>, List<DB.Element>)> keyValuePairs = GetDotBimCategory();
+            List<DB.Mesh> meshes = new List<DB.Mesh>();
+            List<DB.Element> elements = new List<DB.Element>();
+
             foreach (var kvp in keyValuePairs)
             {
                 if (kvp.Value.Item1.Count == 0) continue;
@@ -390,8 +369,24 @@ namespace RvtVa3c
                     Info = GetDefaultInfo(kvp.Key)
                 };
                 dotBim.Save(_fileName + "-" + kvp.Key + ".bim");
+                if(MergeFile)
+                {
+                    meshes.AddRange(dotBim.Meshes);
+                    elements.AddRange(dotBim.Elements);
+                }
             }
 
+            if(meshes.Count>0&&elements.Count>0)
+            {
+                DB.File dotBim = new DB.File
+                {
+                    SchemaVersion = "1.0.0",
+                    Meshes = meshes,
+                    Elements = elements,
+                    Info = GetDefaultInfo()
+                };
+                dotBim.Save(_fileName+"-" + _doc.ProjectInformation.Name + ".bim");
+            }
         }
 
         public void OnPolymesh(PolymeshTopology polymesh)
@@ -542,8 +537,6 @@ namespace RvtVa3c
 
             _currentElement.name = Utils.ElementDescription(e);
             _currentElement.material = _currentMaterialUid;
-            _currentElement.matrix = new double[] { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1 };
-            _currentElement.type = "RevitElement";
             _currentElement.uuid = uid;
 
             _currentObject = new Dictionary<string, Va3cObject>();
@@ -670,13 +663,20 @@ namespace RvtVa3c
             //Debug.WriteLine( "OnLight: Asset:" + ( ( asset != null ) ? asset.Name : "Null" ) );
         }
 
-        private static Dictionary<string, string> GetDefaultInfo(string category)
+        private static Dictionary<string, string> GetDefaultInfo(string category=null)
         {
             Dictionary<string, string> info = new Dictionary<string, string>();
             info.Add("Description", "");
             info.Add("Author", "https://github.com/RyugaRyuzaki");
             info.Add("OriginAuthor", "https://github.com/paireks");
-            info.Add("Category", category);
+            if (null != category)
+            {
+                info.Add("Category", category);
+            }
+            else
+            {
+                info.Add("All Project", category);
+            }
             return info;
         }
 
@@ -713,6 +713,7 @@ namespace RvtVa3c
                     index++;
                 }
             }
+            if (coordinates.Count == 0 || indices.Count == 0) return null;
             return new DB.Mesh { Coordinates = coordinates, Indices = indices, MeshId = ElementID };
         }
         private Dictionary<string, (List<DB.Mesh>, List<DB.Element>)> GetDotBimCategory()
@@ -741,6 +742,8 @@ namespace RvtVa3c
                 if (meshes == null || elements == null) continue;
                 DB.Mesh mesh = MergeMesh(element.children, int.Parse(ElementID), face_colors);
                 if (mesh == null) continue;
+
+
                 categories[Category].Item1.Add(mesh);
                 DB.Element dotBimElement = new DB.Element
                 {
@@ -771,7 +774,7 @@ namespace RvtVa3c
             return categories;
         }
 
-
+      
 
 
     }
