@@ -33,6 +33,7 @@ export class IfcLoader {
   async parse( data: Uint8Array ) {
     try {
       await this.api.Init()
+      this.api.SetLogLevel( WebIFC.LogLevel.LOG_LEVEL_OFF );
       const modelID = this.api.OpenModel( data, this.webIfcSettings )
       await this.readAllGeometries( modelID )
       await this.dotBim.getIfcMetadata( modelID )

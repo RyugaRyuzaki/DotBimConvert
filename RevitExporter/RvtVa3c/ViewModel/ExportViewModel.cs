@@ -42,6 +42,8 @@ namespace RvtVa3c.ViewModel
             set { _OutputFolder = value; OnPropertyChanged(); }
         }
 
+      
+
 
         private bool _CheckAllCategories;
 
@@ -63,7 +65,6 @@ namespace RvtVa3c.ViewModel
                 OnPropertyChanged();
             }
         }
-
 
         private ObservableCollection<CategoryModel> _AllCategories;
 

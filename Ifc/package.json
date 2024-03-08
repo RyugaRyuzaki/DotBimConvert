@@ -4,10 +4,10 @@
     "description": "",
     "main": "index.js",
     "scripts": {
-        "test": "node dist/index.js ./input/02.ifc ./output",
+        "test": "node dist/index.js CenterConference.ifc ./output",
         "test:all": "node dist/index.js ./input/02.ifc ./output all",
         "dev": "nodemon ",
-        "build": "npx tsc -p . & rollup -c "
+        "build": "npx tsc -p ."
     },
     "keywords": [],
     "author": "",

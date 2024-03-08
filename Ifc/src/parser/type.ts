@@ -1,10 +1,14 @@
 import * as THREE from 'three'
 
+export interface IBufferGeometry {
+    buffer: THREE.BufferGeometry;
+    matrix: THREE.Matrix4
+}
 
 export interface IIfcGeometry {
     [colID: string]: {
         dotBimColor: IDotBimColor;
-        buffers: THREE.BufferGeometry[]
+        buffers: IBufferGeometry[]
     }
 }
 // mesh
@@ -46,8 +50,8 @@ export interface IDotBimRotation {
 export interface IDotBimElement {
     type: string,
     info: IDotBimInfo,
-    color: IDotBimColor,
-    face_colors: number[],
+    color?: IDotBimColor,
+    face_colors?: number[],
     guid: string,
     rotation: IDotBimRotation,
     vector: IDotBimVector,

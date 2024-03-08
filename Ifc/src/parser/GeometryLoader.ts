@@ -1,11 +1,11 @@
 import * as WebIFC from "web-ifc"
-import { IDotBimColor, IDotBimInfo, IIfcGeometry } from "./type";
+import { IBufferGeometry, IDotBimColor, IIfcGeometry } from "./type";
 import * as THREE from 'three'
 
 
 export class GeometryReader {
 
-    items: { [expressID: number]: IIfcGeometry } = {}
+    items: { [expressID: number]: { ids: number[], geometry: IIfcGeometry } } = {}
     /**
      *
      */
@@ -23,16 +23,18 @@ export class GeometryReader {
             const color = placedGeometry.color
             const colID = `${color.x}-${color.y}-${color.z}-${color.w}`;
             const dotBimColor = GeometryReader.convertColor( color )
-            if ( !this.items[expressID] ) this.items[expressID] = {} as IIfcGeometry
-            if ( !this.items[expressID][colID] ) this.items[expressID][colID] = { dotBimColor, buffers: [] as THREE.BufferGeometry[] }
-            const buffer = this.newBufferGeometry( modelID, placedGeometry.geometryExpressID, placedGeometry.flatTransformation );
+            if ( !this.items[expressID] ) this.items[expressID] = { ids: [], geometry: {} }
+            this.items[expressID].ids.push( placedGeometry.geometryExpressID )
+            if ( !this.items[expressID].geometry[colID] ) this.items[expressID].geometry[colID] = { dotBimColor, buffers: [] as IBufferGeometry[] }
+            const buffer = this.newBufferGeometry( modelID, placedGeometry.geometryExpressID, );
             if ( !buffer ) continue
-            this.items[expressID][colID].buffers.push( buffer )
+            const matrix = new THREE.Matrix4().fromArray( placedGeometry.flatTransformation )
+            this.items[expressID].geometry[colID].buffers.push( { buffer, matrix } )
         }
     }
 
 
-    private newBufferGeometry( modelID: number, geometryExpressID: number, matrix: number[] ) {
+    private newBufferGeometry( modelID: number, geometryExpressID: number ) {
         const geometry = this.api.GetGeometry( modelID, geometryExpressID );
         const verts = this.getVertices( geometry );
         if ( !verts.length ) return null;
@@ -40,8 +42,8 @@ export class GeometryReader {
         if ( !indices.length ) return null;
         const buffer = this.constructBuffer( verts, indices );
         // transform geometry to origin coordination
-        const matrix4 = new THREE.Matrix4().fromArray( matrix )
-        buffer.applyMatrix4( matrix4 )
+        // const matrix4 = new THREE.Matrix4().fromArray( matrix )
+        // buffer.applyMatrix4( matrix4 )
         // @ts-ignore
         geometry.delete();
         return buffer;
