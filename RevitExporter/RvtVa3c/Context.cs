@@ -363,7 +363,7 @@ namespace RvtVa3c
                 if (kvp.Value.Item1.Count == 0) continue;
                 DB.File dotBim = new DB.File
                 {
-                    SchemaVersion = "1.0.0",
+                    SchemaVersion = "1.1.0",
                     Meshes = kvp.Value.Item1,
                     Elements = kvp.Value.Item2,
                     Info = GetDefaultInfo(kvp.Key)
@@ -380,7 +380,7 @@ namespace RvtVa3c
             {
                 DB.File dotBim = new DB.File
                 {
-                    SchemaVersion = "1.0.0",
+                    SchemaVersion = "1.1.0",
                     Meshes = meshes,
                     Elements = elements,
                     Info = GetDefaultInfo()
