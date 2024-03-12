@@ -334,7 +334,7 @@ namespace RvtVa3c
         }
         public List<Category> Categories { get; set; }
         public bool MergeFile { get; set; }
-        public Context(Document document, string fileName, List<Category> categories, bool mergeFile=false)
+        public Context(Document document, string fileName, List<Category> categories, bool mergeFile = false)
         {
             _doc = document;
             _fileName = fileName;
@@ -369,14 +369,14 @@ namespace RvtVa3c
                     Info = GetDefaultInfo(kvp.Key)
                 };
                 dotBim.Save(_fileName + "-" + kvp.Key + ".bim");
-                if(MergeFile)
+                if (MergeFile)
                 {
                     meshes.AddRange(dotBim.Meshes);
                     elements.AddRange(dotBim.Elements);
                 }
             }
 
-            if(meshes.Count>0&&elements.Count>0)
+            if (meshes.Count > 0 && elements.Count > 0)
             {
                 DB.File dotBim = new DB.File
                 {
@@ -385,7 +385,7 @@ namespace RvtVa3c
                     Elements = elements,
                     Info = GetDefaultInfo()
                 };
-                dotBim.Save(_fileName+"-" + _doc.ProjectInformation.Name + ".bim");
+                dotBim.Save(_fileName + "-" + _doc.ProjectInformation.Name + ".bim");
             }
         }
 
@@ -663,7 +663,7 @@ namespace RvtVa3c
             //Debug.WriteLine( "OnLight: Asset:" + ( ( asset != null ) ? asset.Name : "Null" ) );
         }
 
-        private static Dictionary<string, string> GetDefaultInfo(string category=null)
+        private static Dictionary<string, string> GetDefaultInfo(string category = null)
         {
             Dictionary<string, string> info = new Dictionary<string, string>();
             info.Add("Description", "");
@@ -681,7 +681,7 @@ namespace RvtVa3c
         }
 
 
-        private DB.Mesh MergeMesh(List<Va3cObject> children, int ElementID, List<int> face_colors)
+        private DB.Mesh MergeMesh(List<Va3cObject> children, int ElementID, List<int> face_colors, Dictionary<string, string> keyValuePairs)
         {
             List<double> coordinates = new List<double>();
             List<int> indices = new List<int>();
@@ -690,9 +690,15 @@ namespace RvtVa3c
             {
                 Va3cObject child = children[i];
                 Va3cMaterial va3CMaterial = _materials[child.material];
-
+              
                 Va3cGeometry va3CGeometry = _geometries[child.geometry];
                 DB.Color dotBimColor = va3CMaterial.dotBimColor;
+                string temp = dotBimColor.R + "" + dotBimColor.R + "" + dotBimColor.B + "" + dotBimColor.A;
+                
+                if (!keyValuePairs.ContainsValue(temp))
+                {
+                    keyValuePairs.Add(temp, temp);
+                }
                 int itemSize = va3CGeometry.data.attributes.position.itemSize;
                 List<double> array = va3CGeometry.data.attributes.position.array;
                 for (int j = 0; j < array.Count; j += itemSize)
@@ -700,8 +706,8 @@ namespace RvtVa3c
                     coordinates.Add(array[j]);
                     coordinates.Add(-array[j + 2]);
                     coordinates.Add(array[j + 1]);
-                  
-                    if(j%9==0)
+
+                    if (j % 9 == 0)
                     {
                         face_colors.Add(dotBimColor.R);
                         face_colors.Add(dotBimColor.G);
@@ -734,13 +740,14 @@ namespace RvtVa3c
                 if (Category == null || ElementID == null || BuiltInCategory == null) continue;
                 if (!cats.Contains(BuiltInCategory)) continue;
                 List<int> face_colors = new List<int>();
+                Dictionary<string, string> keyValuePairs = new Dictionary<string, string>();
 
                 if (!categories.ContainsKey(Category)) categories.Add(Category, (new List<DB.Mesh>(), new List<DB.Element>()));
 
                 List<DB.Mesh> meshes = categories[Category].Item1;
                 List<DB.Element> elements = categories[Category].Item2;
                 if (meshes == null || elements == null) continue;
-                DB.Mesh mesh = MergeMesh(element.children, int.Parse(ElementID), face_colors);
+                DB.Mesh mesh = MergeMesh(element.children, int.Parse(ElementID), face_colors, keyValuePairs);
                 if (mesh == null) continue;
 
 
@@ -764,17 +771,36 @@ namespace RvtVa3c
                     },
                     Guid = System.Guid.NewGuid().ToString(),
                     MeshId = int.Parse(ElementID),
-                    FaceColors = face_colors,
+
 
                 };
+                if (element.children.Count == 1)
+                {
+                    Va3cObject child = element.children[0];
+                    Va3cMaterial va3CMaterial = _materials[child.material];
+                    dotBimElement.Color = va3CMaterial.dotBimColor;
+                }
+                else
+                {
+                    if (keyValuePairs.Count == 1)
+                    {
+                        Va3cObject child = element.children[0];
+                        Va3cMaterial va3CMaterial = _materials[child.material];
+                        dotBimElement.Color = va3CMaterial.dotBimColor;
+                    }
+                    else
+                    {
 
+                        dotBimElement.FaceColors = face_colors;
+                    }
+                }
                 categories[Category].Item2.Add(dotBimElement);
             }
 
             return categories;
         }
 
-      
+
 
 
     }

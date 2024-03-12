@@ -14,6 +14,7 @@ using RvtVa3c.Model;
 using Autodesk.Revit.Creation;
 using Newtonsoft.Json.Linq;
 using System;
+using System.Linq.Expressions;
 
 namespace RvtVa3c.ViewModel
 {
@@ -131,7 +132,6 @@ namespace RvtVa3c.ViewModel
             BrowseFileCommand = new RelayCommand<object>((p) => { return true; }, (p) =>
             {
                 BrowseFile();
-
             });
             OpenWebCommand = new RelayCommand<object>((p) => { return true; }, (p) =>
             {
@@ -222,7 +222,7 @@ namespace RvtVa3c.ViewModel
                 OutputFolder = Path.GetDirectoryName(
                   OutputFile);
             }
-
+           
         }
         private ObservableCollection<CategoryModel> GetAllCategory()
         {

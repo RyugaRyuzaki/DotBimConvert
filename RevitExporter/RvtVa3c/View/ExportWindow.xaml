@@ -15,7 +15,6 @@
         Background="#f0ebeb"
         WindowStyle="None"
         AllowsTransparency="True"
-     
     >
 
     <Window.Resources>
