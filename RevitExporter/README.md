@@ -49,4 +49,27 @@ Updated and maintained by RyugaRyuzaki
 
 ## <a name="license"></a>License
 
+## instructions 
+  - Make sure you install Visual Studio 2022 , if not [here](https://visualstudio.microsoft.com/vs/)https://visualstudio.microsoft.com/vs/
+  - Clone repo
+  - Open Visual Studio 2022 and follow these steps ![image](https://github.com/RyugaRyuzaki/DotBimConvert/assets/89787521/e9f54c2a-1be4-4ac1-aa0e-1305f402414f)
+  - After all done, Import library open Nunet package and install ![image](https://github.com/RyugaRyuzaki/DotBimConvert/assets/89787521/b92f2d0e-b930-46f1-ab5e-f137ea2259be)
+  - Add 2 .dll files of revit , right click on References on Solution browsers => Add Refernce ![image](https://github.com/RyugaRyuzaki/DotBimConvert/assets/89787521/891f8b3b-9408-44ce-a5c4-d644fb67e4f0)
+  - Setup output : go to project property and follow these steps ![image](https://github.com/RyugaRyuzaki/DotBimConvert/assets/89787521/82686a9e-a331-4317-91df-201c2f4020e5)
+  - Chosse version revit you want.
+  - F6 to build ![image](https://github.com/RyugaRyuzaki/DotBimConvert/assets/89787521/2fa2e664-fe37-4ad5-b9dc-bd34c04a173c)
+  - After success you can see RvtVa3c.dll in output directory
+  - Open DotBim.addin
+  - Follow folder
+  - DotBim
+      - DotBim.Addin
+      - /DotBim 
+          - ./Assets
+          - dotbim.dll
+          - ....
+          - RvtVa3c.dll
+       - install.txt
+    - Follow install.txt after that open Revit and enjoy 
+
+
 
