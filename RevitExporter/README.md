@@ -2,8 +2,15 @@
 
 A RevitDotBim custom exporter add-in generating .bim by https://github.com/paireks/dotbim
 
+## Installation
 
-## Setup, Compilation and Installation
+- 1 : Unzip the DotBim.zip file
+- 2 : copy ./DotBim and DotBim.addin to  C:\ProgramData\Autodesk\Revit\Addins\2023
+- 3 : open Revit and enjoy.
+  
+*Note: only work with Revit 2023
+
+## Setup, Compilation
 
 RevitDotBim is a Revit add-in implementing an external application and an external command for Revit version 2023.
 
